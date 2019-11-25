@@ -80,16 +80,16 @@ function App() {
                   <span className="box-skills__sub-title">Especialização em Engenharia de Software</span>
                   <div className="box-academics">
                     <div className="row">
-                      <div className="col-xs-12 col-sm-5 box-academics__items">
+                      <div className="col-xs-12 col-sm-5 box-academics__items d-inline-flex">
                         Faculdade Estácio de Sá – Estácio
                         </div>
-                      <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items">
+                      <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items d-inline-flex">
                         EAD
                         </div>
-                      <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items">
+                      <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items d-inline-flex">
                         Trancado
                         </div>
-                      <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items">
+                      <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items d-inline-flex">
                         2016.1
                         </div>
                     </div>
@@ -100,16 +100,16 @@ function App() {
                   <span className="box-skills__sub-title">Superior Tecnológico em Sistemas para Internet</span>
                   <div className="box-academics">
                     <div className="row">
-                      <div className="col-xs-12 col-sm-5 box-academics__items">
+                      <div className="col-xs-12 col-sm-5 box-academics__items d-inline-flex">
                         Universidade Salvador – Unifacs
                         </div>
-                      <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items">
+                      <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items d-inline-flex">
                         Noturno
                         </div>
-                      <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items">
+                      <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items d-inline-flex">
                         Concluído
                         </div>
-                      <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items">
+                      <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items d-inline-flex">
                         2014.1
                         </div>
                     </div>
@@ -119,16 +119,16 @@ function App() {
                 <li>
                   <span className="box-skills__sub-title">Superior em Engenharia da Computação</span>
                   <div className="box-academics"><div className="row">
-                    <div className="col-xs-12 col-sm-5 box-academics__items">
+                    <div className="col-xs-12 col-sm-5 box-academics__items d-inline-flex">
                       Faculdade de Ciências e Tecnologia – Área1
                       </div>
-                    <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items">
+                    <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items d-inline-flex">
                       Noturno
                       </div>
-                    <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items">
+                    <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items d-inline-flex">
                       Trancado
                       </div>
-                    <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items">
+                    <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items d-inline-flex">
                       2012.1
                       </div>
                   </div>
@@ -140,16 +140,16 @@ function App() {
                     <span className="box-skills__sub-title">Certificado de conclusão de curso | Treinamentos</span>
                     <div className="box-academics">
                       <div className="row">
-                        <div className="col-xs-12 col-sm-5 box-academics__items">
+                        <div className="col-xs-12 col-sm-5 box-academics__items d-inline-flex">
                           Treinamento Laravel – Principios básicos
                         </div>
-                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items">
+                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items d-inline-flex">
                           Conder
                         </div>
-                        <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items">
+                        <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items d-inline-flex">
                           10h
                         </div>
-                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items">
+                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items d-inline-flex">
                           2014
                         </div>
                       </div>
@@ -159,16 +159,16 @@ function App() {
 
                     <div className="box-academics">
                       <div className="row">
-                        <div className="col-xs-12 col-sm-5 box-academics__items">
+                        <div className="col-xs-12 col-sm-5 box-academics__items d-inline-flex">
                           Grupo de estudo: Design Patterns
                         </div>
-                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items">
+                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items d-inline-flex">
                           Conder
                         </div>
-                        <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items">
+                        <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items d-inline-flex">
                           --h
                         </div>
-                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items">
+                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items d-inline-flex">
                           2014
                         </div>
                       </div>
@@ -178,16 +178,16 @@ function App() {
 
                     <div className="box-academics">
                       <div className="row">
-                        <div className="col-xs-12 col-sm-5 box-academics__items">
+                        <div className="col-xs-12 col-sm-5 box-academics__items d-inline-flex">
                           Treinamento da Ferramenta de Desenvolvimento: Maker
                         </div>
-                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items">
+                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items d-inline-flex">
                           Softwell
                         </div>
-                        <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items">
+                        <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items d-inline-flex">
                           40h
                         </div>
-                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items">
+                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items d-inline-flex">
                           2011
                         </div>
                       </div>
@@ -197,16 +197,16 @@ function App() {
 
                     <div className="box-academics">
                       <div className="row">
-                        <div className="col-xs-12 col-sm-5 box-academics__items">
+                        <div className="col-xs-12 col-sm-5 box-academics__items d-inline-flex">
                           Microsoft Innovation Center: Students to Business – Banco de Dados
                         </div>
-                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items">
+                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items d-inline-flex">
                           Estácio de Sá
                         </div>
-                        <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items">
+                        <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items d-inline-flex">
                           84h
                         </div>
-                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items">
+                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items d-inline-flex">
                           2010
                         </div>
                       </div>
@@ -216,16 +216,16 @@ function App() {
 
                     <div className="box-academics">
                       <div className="row">
-                        <div className="col-xs-12 col-sm-5 box-academics__items">
+                        <div className="col-xs-12 col-sm-5 box-academics__items d-inline-flex">
                           Manutenção e Suporte à Microcomputadores
                         </div>
-                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items">
+                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items d-inline-flex">
                           SENAI
                         </div>
-                        <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items">
+                        <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items d-inline-flex">
                           120h
                         </div>
-                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items">
+                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items d-inline-flex">
                           2008
                         </div>
                       </div>

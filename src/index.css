@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5 {
       .box-academics__items::before {
         content: "";
         position: relative;
-        top: -9px;
+        top: -50%;
         left: 0px;
         width: 15px;
         border-bottom: 1px solid rgba(0,0,0,.1);
