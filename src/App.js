@@ -1,25 +1,362 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Eh noix qui voa bruxao!
-        </a>
-      </header>
-    </div>
+      <Header />
+
+      <div className="box-skills">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <span className="box-skills__sub-title">Contatos</span>
+            </div>
+            <ul className="col-md-12 col-lg-3">
+              <li>(71) 3014-6861</li>
+              <li> (71) 9 9332-9298 </li>
+            </ul>
+            <ul className="col-md-12 col-lg-9">
+              <li>dgmartins87@gmail.com</li>
+              <li>dgmartins87@hotmail.com</li>
+              <li>
+                <a href="http://dgsite.pessoal.ws" target="_blank">
+                  http://dgsite.pessoal.ws
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="box-skills">
+        <div className="bg--info box--shadow">
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <h2 className="font--uppercase text--white text--shadow"><span class="text--light">Perfil</span> Profissional</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <p>
+                Profissional ativo na área de T.I., <strong>há 05 anos</strong>, formado em <strong>Sistemas para Internet.</strong>
+                <br /><strong>Desenvolvedor de Sistemas Web e Mobile</strong>, com foco no desenvolvimento <strong>Frontend/Mobile</strong>, mas
+                também atuante no <strong>Backend</strong>.
+              </p>
+              <ul>
+                <li>Freelancer –</li>
+                <li>Tempo integral –</li>
+                <li>Sem condução própria –</li>
+                <li>Sem disponibilidade para viagens –</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="box-skills">
+        <div className="bg--success box--shadow">
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <h2 className="font--uppercase text--white text--shadow"><span class="text--light">Formação</span> Academica</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <ul>
+                <li>
+                  <span className="box-skills__sub-title">Especialização em Engenharia de Software</span>
+                  <div className="box-academics">
+                    <div className="row">
+                      <div className="col-xs-12 col-sm-5 box-academics__items">
+                        Faculdade Estácio de Sá – Estácio
+                        </div>
+                      <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items">
+                        EAD
+                        </div>
+                      <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items">
+                        Trancado
+                        </div>
+                      <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items">
+                        2016.1
+                        </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <span className="box-skills__sub-title">Superior Tecnológico em Sistemas para Internet</span>
+                  <div className="box-academics">
+                    <div className="row">
+                      <div className="col-xs-12 col-sm-5 box-academics__items">
+                        Universidade Salvador – Unifacs
+                        </div>
+                      <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items">
+                        Noturno
+                        </div>
+                      <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items">
+                        Concluído
+                        </div>
+                      <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items">
+                        2014.1
+                        </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <span className="box-skills__sub-title">Superior em Engenharia da Computação</span>
+                  <div className="box-academics"><div className="row">
+                    <div className="col-xs-12 col-sm-5 box-academics__items">
+                      Faculdade de Ciências e Tecnologia – Área1
+                      </div>
+                    <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items">
+                      Noturno
+                      </div>
+                    <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items">
+                      Trancado
+                      </div>
+                    <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items">
+                      2012.1
+                      </div>
+                  </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div className="box-certifier">
+                    <span className="box-skills__sub-title">Certificado de conclusão de curso | Treinamentos</span>
+                    <div className="box-academics">
+                      <div className="row">
+                        <div className="col-xs-12 col-sm-5 box-academics__items">
+                          Treinamento Laravel – Principios básicos
+                        </div>
+                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items">
+                          Conder
+                        </div>
+                        <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items">
+                          10h
+                        </div>
+                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items">
+                          2014
+                        </div>
+                      </div>
+                    </div>
+
+                    <hr className="--no-margin" />
+
+                    <div className="box-academics">
+                      <div className="row">
+                        <div className="col-xs-12 col-sm-5 box-academics__items">
+                          Grupo de estudo: Design Patterns
+                        </div>
+                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items">
+                          Conder
+                        </div>
+                        <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items">
+                          --h
+                        </div>
+                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items">
+                          2014
+                        </div>
+                      </div>
+                    </div>
+
+                    <hr className="--no-margin" />
+
+                    <div className="box-academics">
+                      <div className="row">
+                        <div className="col-xs-12 col-sm-5 box-academics__items">
+                          Treinamento da Ferramenta de Desenvolvimento: Maker
+                        </div>
+                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items">
+                          Softwell
+                        </div>
+                        <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items">
+                          40h
+                        </div>
+                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items">
+                          2011
+                        </div>
+                      </div>
+                    </div>
+
+                    <hr className="--no-margin" />
+
+                    <div className="box-academics">
+                      <div className="row">
+                        <div className="col-xs-12 col-sm-5 box-academics__items">
+                          Microsoft Innovation Center: Students to Business – Banco de Dados
+                        </div>
+                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items">
+                          Estácio de Sá
+                        </div>
+                        <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items">
+                          84h
+                        </div>
+                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items">
+                          2010
+                        </div>
+                      </div>
+                    </div>
+
+                    <hr className="--no-margin" />
+
+                    <div className="box-academics">
+                      <div className="row">
+                        <div className="col-xs-12 col-sm-5 box-academics__items">
+                          Manutenção e Suporte à Microcomputadores
+                        </div>
+                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items">
+                          SENAI
+                        </div>
+                        <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items">
+                          120h
+                        </div>
+                        <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items">
+                          2008
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="box-skills">
+        <div className="bg--elixir box--shadow">
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <h2 className="font--uppercase text--white text--shadow"><span class="text--light">Conhecimentos</span> Profissionais</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="box-knowledge">
+                <span class="box-knowledge__subtitle">Bancos de Dados</span>
+                <div className="row">
+                  <div className="table-responsive col-md-6">
+                    <table className="table table-borderless">
+                      <tr>
+                        <th colSpan="2">Relacionais</th>
+                      </tr>
+                      <tr>
+                        <td>
+                          SQL Server
+                      </td>
+                        <td>
+                          Avançado
+                      </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          MySQL
+                      </td>
+                        <td>
+                          Avançado
+                      </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          PostgreSQL
+                      </td>
+                        <td>
+                          Intermediário
+                      </td>
+                      </tr>
+                    </table>
+                  </div>
+
+                  <div className="table-responsive col-md-6">
+                    <table className="table table-borderless">
+                      <tr>
+                        <th colSpan="2">Não Relacionais</th>
+                      </tr>
+                      <tr>
+                        <td>
+                          Firebase Realtime Database
+                      </td>
+                        <td>
+                          Avançado
+                      </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          Firebase Cloud Storage
+                      </td>
+                        <td>
+                          Avançado
+                      </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          MongoDB
+                      </td>
+                        <td>
+                          Intermediário
+                      </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          Amazon AWS S3/Amplify
+                      </td>
+                        <td>
+                          Avançado
+                      </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="box-experiences">
+        <div className="bg--danger box--shadow">
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <h2 className="font--uppercase text--white text--shadow"><span class="text--light">Experiências</span> Profisionais</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="box-personal">
+        <div className="bg--spark box--shadow">
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <h2 className="font--uppercase text--white text--shadow"><span class="text--light">Informações</span> Pessoais</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div >
   );
 }
 
