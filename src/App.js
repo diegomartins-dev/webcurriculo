@@ -62,7 +62,7 @@ function App() {
       </div>
 
       <div className="box-skills">
-        <div className="bg--success box--shadow">
+        <div className="bg--info box--shadow">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -239,7 +239,7 @@ function App() {
       </div>
 
       <div className="box-skills">
-        <div className="bg--elixir box--shadow">
+        <div className="bg--info box--shadow">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -253,77 +253,85 @@ function App() {
           <div className="row">
             <div className="col-12">
               <div className="box-knowledge">
-                <span class="box-knowledge__subtitle">Bancos de Dados</span>
+                <span class="box-knowledge__subtitle">Bancos de Dados </span>
                 <div className="row">
                   <div className="table-responsive col-md-6">
-                    <table className="table table-borderless">
-                      <tr>
-                        <th colSpan="2">Relacionais</th>
-                      </tr>
-                      <tr>
-                        <td>
-                          SQL Server
-                      </td>
-                        <td>
-                          Avançado
-                      </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          MySQL
-                      </td>
-                        <td>
-                          Avançado
-                      </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          PostgreSQL
-                      </td>
-                        <td>
-                          Intermediário
-                      </td>
-                      </tr>
+                    <table className="table table-borderless --no-margin-bottom">
+                      <thead>
+                        <tr>
+                          <th className="--no-padding-top --no-padding-left-right" colSpan="2">Relacionais</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td className="--no-padding-top align-middle">
+                            SQL Server
+                          </td>
+                          <td className="--no-padding-top align-middle">
+                            Avançado
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="--no-padding-top align-middle">
+                            MySQL
+                          </td>
+                          <td className="--no-padding-top align-middle">
+                            Avançado
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="--no-padding-top align-middle">
+                            PostgreSQL
+                          </td>
+                          <td className="--no-padding-top align-middle">
+                            Intermediário
+                          </td>
+                        </tr>
+                      </tbody>
                     </table>
                   </div>
 
                   <div className="table-responsive col-md-6">
-                    <table className="table table-borderless">
-                      <tr>
-                        <th colSpan="2">Não Relacionais</th>
-                      </tr>
-                      <tr>
-                        <td>
-                          Firebase Realtime Database
-                      </td>
-                        <td>
-                          Avançado
-                      </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Firebase Cloud Storage
-                      </td>
-                        <td>
-                          Avançado
-                      </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          MongoDB
-                      </td>
-                        <td>
-                          Intermediário
-                      </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Amazon AWS S3/Amplify
-                      </td>
-                        <td>
-                          Avançado
-                      </td>
-                      </tr>
+                    <table className="table table-borderless --no-margin-bottom">
+                      <thead>
+                        <tr>
+                          <th className="--no-padding-top --no-padding-left-right" colSpan="2">Não Relacionais</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td className="--no-padding-top align-middle">
+                            Firebase Realtime Database
+                          </td>
+                          <td className="--no-padding-top align-middle">
+                            Avançado
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="--no-padding-top align-middle">
+                            Firebase Cloud Storage
+                          </td>
+                          <td className="--no-padding-top align-middle">
+                            Avançado
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="--no-padding-top align-middle">
+                            MongoDB
+                          </td>
+                          <td className="--no-padding-top align-middle">
+                            Intermediário
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="--no-padding-top align-middle">
+                            Amazon AWS S3/Amplify
+                          </td>
+                          <td className="--no-padding-top align-middle">
+                            Avançado
+                          </td>
+                        </tr>
+                      </tbody>
                     </table>
                   </div>
                 </div>
@@ -334,7 +342,7 @@ function App() {
       </div>
 
       <div className="box-experiences">
-        <div className="bg--danger box--shadow">
+        <div className="bg--info box--shadow">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -346,7 +354,7 @@ function App() {
       </div>
 
       <div className="box-personal">
-        <div className="bg--spark box--shadow">
+        <div className="bg--info box--shadow">
           <div className="container">
             <div className="row">
               <div className="col-12">
