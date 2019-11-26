@@ -2,41 +2,21 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header.js';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
       <Header />
 
-      <div className="box-skills">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <span className="box-skills__sub-title">Contatos</span>
-            </div>
-            <ul className="col-md-12 col-lg-3">
-              <li>(71) 3014-6861</li>
-              <li> (71) 9 9332-9298 </li>
-            </ul>
-            <ul className="col-md-12 col-lg-9">
-              <li>dgmartins87@gmail.com</li>
-              <li>dgmartins87@hotmail.com</li>
-              <li>
-                <a href="http://dgsite.pessoal.ws" target="_blank">
-                  http://dgsite.pessoal.ws
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      
 
       <div className="box-skills">
         <div className="bg--info box--shadow">
           <div className="container">
             <div className="row">
               <div className="col-12">
-                <h2 className="font--uppercase text--white text--shadow"><span class="text--light">Perfil</span> Profissional</h2>
+                <h2 className="font--uppercase text--white text--shadow"><span class="text--light text--capitalize">Perfil</span> Profissional</h2>
               </div>
             </div>
           </div>
@@ -50,7 +30,7 @@ function App() {
                 <br /><strong>Desenvolvedor de Sistemas Web e Mobile</strong>, com foco no desenvolvimento <strong>Frontend/Mobile</strong>, mas
                 também atuante no <strong>Backend</strong>.
               </p>
-              <ul>
+              <ul className="--no-margin-bottom">
                 <li>Freelancer –</li>
                 <li>Tempo integral –</li>
                 <li>Sem condução própria –</li>
@@ -66,7 +46,7 @@ function App() {
           <div className="container">
             <div className="row">
               <div className="col-12">
-                <h2 className="font--uppercase text--white text--shadow"><span class="text--light">Formação</span> Academica</h2>
+                <h2 className="font--uppercase text--white text--shadow"><span class="text--light text--capitalize">Formação</span> Academica</h2>
               </div>
             </div>
           </div>
@@ -75,9 +55,9 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <ul>
+              <ul className="list-academics --no-list-style --no-padding-left">
                 <li>
-                  <span className="box-skills__sub-title">Especialização em Engenharia de Software</span>
+                  <h3 className="box-skills__sub-title --no-margin">Especialização em Engenharia de Software</h3>
                   <div className="box-academics">
                     <div className="row">
                       <div className="col-xs-12 col-sm-5 box-academics__items d-inline-flex">
@@ -97,7 +77,7 @@ function App() {
                 </li>
 
                 <li>
-                  <span className="box-skills__sub-title">Superior Tecnológico em Sistemas para Internet</span>
+                  <h3 className="box-skills__sub-title --no-margin">Superior Tecnológico em Sistemas para Internet</h3>
                   <div className="box-academics">
                     <div className="row">
                       <div className="col-xs-12 col-sm-5 box-academics__items d-inline-flex">
@@ -117,27 +97,28 @@ function App() {
                 </li>
 
                 <li>
-                  <span className="box-skills__sub-title">Superior em Engenharia da Computação</span>
-                  <div className="box-academics"><div className="row">
-                    <div className="col-xs-12 col-sm-5 box-academics__items d-inline-flex">
-                      Faculdade de Ciências e Tecnologia – Área1
+                  <h3 className="box-skills__sub-title --no-margin">Superior em Engenharia da Computação</h3>
+                  <div className="box-academics">
+                    <div className="row">
+                      <div className="col-xs-12 col-sm-5 box-academics__items d-inline-flex">
+                        Faculdade de Ciências e Tecnologia – Área1
                       </div>
-                    <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items d-inline-flex">
-                      Noturno
+                      <div className="col-xs-12 col-sm-2 text-xs-left text-sm-center box-academics__items d-inline-flex">
+                        Noturno
                       </div>
-                    <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items d-inline-flex">
-                      Trancado
+                      <div className="col-xs-12 col-sm-3 text-xs-left text-sm-center box-academics__items d-inline-flex">
+                        Trancado
                       </div>
-                    <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items d-inline-flex">
-                      2012.1
+                      <div className="col-xs-12 col-sm-2 text-xs-left text-sm-right box-academics__items d-inline-flex">
+                        2012.1
                       </div>
-                  </div>
+                    </div>
                   </div>
                 </li>
 
                 <li>
                   <div className="box-certifier">
-                    <span className="box-skills__sub-title">Certificado de conclusão de curso | Treinamentos</span>
+                    <h3 className="box-skills__sub-title --no-margin">Certificado de conclusão de curso | Treinamentos</h3>
                     <div className="box-academics">
                       <div className="row">
                         <div className="col-xs-12 col-sm-5 box-academics__items d-inline-flex">
@@ -243,7 +224,7 @@ function App() {
           <div className="container">
             <div className="row">
               <div className="col-12">
-                <h2 className="font--uppercase text--white text--shadow"><span class="text--light">Conhecimentos</span> Profissionais</h2>
+                <h2 className="font--uppercase text--white text--shadow"><span class="text--light text--capitalize">Conhecimentos</span> Profissionais</h2>
               </div>
             </div>
           </div>
@@ -253,7 +234,7 @@ function App() {
           <div className="row">
             <div className="col-12">
               <div className="box-knowledge">
-                <span class="box-knowledge__subtitle">Bancos de Dados </span>
+                <h3 class="box-knowledge__subtitle --no-margin">Bancos de Dados </h3>
                 <div className="row">
                   <div className="table-responsive col-md-6">
                     <table className="table table-borderless --no-margin-bottom">
@@ -264,26 +245,26 @@ function App() {
                       </thead>
                       <tbody>
                         <tr>
-                          <td className="--no-padding-top align-middle">
+                          <td className="--no-padding-top --no-padding-left align-middle">
                             SQL Server
                           </td>
-                          <td className="--no-padding-top align-middle">
+                          <td className="--no-padding-top --no-padding-left align-middle">
                             Avançado
                           </td>
                         </tr>
                         <tr>
-                          <td className="--no-padding-top align-middle">
+                          <td className="--no-padding-top --no-padding-left align-middle">
                             MySQL
                           </td>
-                          <td className="--no-padding-top align-middle">
+                          <td className="--no-padding-top --no-padding-left align-middle">
                             Avançado
                           </td>
                         </tr>
                         <tr>
-                          <td className="--no-padding-top align-middle">
+                          <td className="--no-padding-top --no-padding-left align-middle">
                             PostgreSQL
                           </td>
-                          <td className="--no-padding-top align-middle">
+                          <td className="--no-padding-top --no-padding-left align-middle">
                             Intermediário
                           </td>
                         </tr>
@@ -300,35 +281,119 @@ function App() {
                       </thead>
                       <tbody>
                         <tr>
-                          <td className="--no-padding-top align-middle">
+                          <td className="--no-padding-top --no-padding-left align-middle">
                             Firebase Realtime Database
                           </td>
-                          <td className="--no-padding-top align-middle">
+                          <td className="--no-padding-top --no-padding-left align-middle">
                             Avançado
                           </td>
                         </tr>
                         <tr>
-                          <td className="--no-padding-top align-middle">
+                          <td className="--no-padding-top --no-padding-left align-middle">
                             Firebase Cloud Storage
                           </td>
-                          <td className="--no-padding-top align-middle">
+                          <td className="--no-padding-top --no-padding-left align-middle">
                             Avançado
                           </td>
                         </tr>
                         <tr>
-                          <td className="--no-padding-top align-middle">
+                          <td className="--no-padding-top --no-padding-left align-middle">
                             MongoDB
                           </td>
-                          <td className="--no-padding-top align-middle">
+                          <td className="--no-padding-top --no-padding-left align-middle">
                             Intermediário
                           </td>
                         </tr>
                         <tr>
-                          <td className="--no-padding-top align-middle">
+                          <td className="--no-padding-top --no-padding-left align-middle">
                             Amazon AWS S3/Amplify
                           </td>
-                          <td className="--no-padding-top align-middle">
+                          <td className="--no-padding-top --no-padding-left align-middle">
                             Avançado
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div className="box-knowledge">
+                <h3 class="box-knowledge__subtitle --no-margin">Backend </h3>
+                <div className="row">
+                  <div className="table-responsive col-md-6">
+                    <table className="table table-borderless --no-margin-bottom">
+                      <thead>
+                        <tr>
+                          <th className="--no-padding-top --no-padding-left-right" colSpan="2">Linguagens</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td className="--no-padding-top --no-padding-left align-middle">
+                            C
+                          </td>
+                          <td className="--no-padding-top --no-padding-left align-middle">
+                            Intermediário
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="--no-padding-top --no-padding-left align-middle">
+                            PHP
+                          </td>
+                          <td className="--no-padding-top --no-padding-left align-middle">
+                            Avançado
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="--no-padding-top --no-padding-left align-middle">
+                            JAVA
+                          </td>
+                          <td className="--no-padding-top --no-padding-left align-middle">
+                            Básico
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <div className="table-responsive col-md-6">
+                    <table className="table table-borderless --no-margin-bottom">
+                      <thead>
+                        <tr>
+                          <th className="--no-padding-top --no-padding-left-right" colSpan="2">Frameworks</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td className="--no-padding-top --no-padding-left align-middle">
+                            Codeigniter
+                          </td>
+                          <td className="--no-padding-top --no-padding-left align-middle">
+                            Avançado
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="--no-padding-top --no-padding-left align-middle">
+                            Laravel
+                          </td>
+                          <td className="--no-padding-top --no-padding-left align-middle">
+                            Avançado
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="--no-padding-top --no-padding-left align-middle">
+                            NodeJs
+                          </td>
+                          <td className="--no-padding-top --no-padding-left align-middle">
+                            Intermediário
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="--no-padding-top --no-padding-left align-middle">
+                            ExpressJs
+                          </td>
+                          <td className="--no-padding-top --no-padding-left align-middle">
+                            Intermediário
                           </td>
                         </tr>
                       </tbody>
@@ -341,29 +406,155 @@ function App() {
         </div>
       </div>
 
-      <div className="box-experiences">
+      <div className="box-skills">
         <div className="bg--info box--shadow">
           <div className="container">
             <div className="row">
               <div className="col-12">
-                <h2 className="font--uppercase text--white text--shadow"><span class="text--light">Experiências</span> Profisionais</h2>
+                <h2 className="font--uppercase text--white text--shadow"><span class="text--light text--capitalize">Experiências</span> Profisionais</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="box-experiences">
+                <ol className="--no-margin-bottom">
+                  <li>
+                    <h3 className="box-experiences__subtitle text--uppercase --no-margin-bottom">Freelancer</h3>
+
+                    <div className="box-experiences__content">
+                      <h3 className="box-experiences__content__title">
+                        Desenvolvedor Frontend
+                      </h3>
+                      <p>
+                        Agosto/2018 a Atualmente
+                      </p>
+                    </div>
+
+                    <div className="box-experiences__content">
+                      <h3 className="box-experiences__content__title">
+                        Atividades desenvolvidas
+                      </h3>
+                      <ul>
+                        <li>Desenvolvimento de app híbrido usando Ionic 3</li>
+                        <li>Desenvolvimento com tecnologias Frontend</li>
+                        <li>Criação e edição do layout personalizado para app/sistemas web</li>
+                        <li>Versionamento de sistema</li>
+                        <li>Constante vivencia com HTML, CSS, Javascript , Typescript, Ionic, Angular e Firebase</li>
+                      </ul>
+                    </div>
+
+                    <div className="box-experiences__content">
+                      <h3 className="box-experiences__content__title">
+                        Tecnologias usadas
+                      </h3>
+                      <p>
+                        <span className="box-label">Bootstrap</span>
+                        <span className="box-label">Materialize</span>  
+                        <span className="box-label">HTML5</span>
+                        <span className="box-label">CSS3</span> 
+                        <span className="box-label">Javascript</span>
+                        <span className="box-label">Jquery</span>  
+                        <span className="box-label">Angular</span>
+                        <span className="box-label">Typescritp</span> 
+                        <span className="box-label">MySql</span> 
+                        <span className="box-label">Git</span>
+                        <span className="box-label">Bitbucket</span> 
+                        <span className="box-label">SASS</span>
+                        <span className="box-label">VSCode</span> 
+                        <span className="box-label">Npm</span>
+                        <span className="box-label">NodeJs</span>
+                        <span className="box-label">Firebase</span> 
+                        <span className="box-label">API Facebook</span> 
+                        <span className="box-label">ES2016</span> 
+                        <span className="box-label">Heroku</span> 
+                        <span className="box-label">ExpressJS</span>
+                        <span className="box-label">MongoDB</span> 
+                        <span className="box-label">Mongoose</span>
+                        <span className="box-label">React</span>
+                        <span className="box-label">Redux</span>
+                        <span className="box-label">BEM</span>
+                        <span className="box-label">Utility-First</span>
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <h3 className="box-experiences__subtitle text--uppercase --no-margin-bottom">Avansys</h3>
+
+                    <div className="box-experiences__content">
+                      <h3 className="box-experiences__content__title">
+                        Analista de Sistemas Jr
+                      </h3>
+                      <p>
+                        Setembro/2015 a Março/2016
+                      </p>
+                    </div>
+
+                    <div className="box-experiences__content">
+                      <h3 className="box-experiences__content__title">
+                        Atividades desenvolvidas
+                      </h3>
+                      <ul>
+                        <li>Trabalhar embarcado em um dos clientes da Avansys e desenvolver;</li>
+                        <li>Criação de um sistema de pesquisas e formulários para área de educação – Sistema Inculca;</li>
+                        <li>Constante vivencia com análise, modelagem do banco de dados e consultas SQL;</li>
+                        <li>Manutenção em sistemas com o framework ExtJS;</li>
+                        <li>Constante vivencia com Javascript, Jquery, Codeigniter, PHP, Mysql</li>
+                      </ul>
+                    </div>
+
+                    <div className="box-experiences__content">
+                      <h3 className="box-experiences__content__title">
+                        Tecnologias usadas
+                      </h3>
+                      <p className="--no-margin-bottom">
+                        <span className="box-label">Bootstrap</span>  
+                        <span className="box-label">HTML5</span>
+                        <span className="box-label">CSS3</span> 
+                        <span className="box-label">Javascript</span>
+                        <span className="box-label">Jquery</span>  
+                        <span className="box-label">ExtJs</span>
+                        <span className="box-label">SVN Tortoise</span> 
+                        <span className="box-label">MySql</span>                         
+                        <span className="box-label">Codeigniter</span>
+                        <span className="box-label">PHP</span> 
+                        <span className="box-label">MySQL Administrator</span>
+                        <span className="box-label">NetBeans</span> 
+                        <span className="box-label">Access</span>
+                      </p>
+                    </div>
+                  </li>
+                </ol>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="box-personal">
+      <div className="box-skills">
         <div className="bg--info box--shadow">
           <div className="container">
             <div className="row">
               <div className="col-12">
-                <h2 className="font--uppercase text--white text--shadow"><span class="text--light">Informações</span> Pessoais</h2>
+                <h2 className="font--uppercase text--white text--shadow"><span class="text--light text--capitalize">Informações</span> Pessoais</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="box-personal">
+                <p>Brasileiro, 31 anos, solteiro.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <Footer />
     </div >
   );
 }

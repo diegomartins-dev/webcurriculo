@@ -59,19 +59,8 @@ h1, h2, h3, h4, h5 {
         -15px -15px 0 rgba(0, 0, 0, 0.05) inset
     }
 
-    /* Box Skills */
-    .box-skills ul {
-      list-style: none;
-    }
-  
-    .box-skills ul:last-child {
-      margin-bottom: 0;
-    }
-  
+    /* Box Skills */  
     .box-skills__sub-title {
-      text-transform: uppercase;
-      font-weight: bold;
-      font-size: 20px;
       color: var(--info);
     }
     
@@ -88,39 +77,24 @@ h1, h2, h3, h4, h5 {
         top: -50%;
         left: 0px;
         width: 15px;
-        border-bottom: 1px solid rgba(0,0,0,.1);
+        border-bottom: 1px solid var(--gray);
         margin-right: 15px;
         padding-right: 15px;           
       }
     }
 
     /* Box Knowledge */
+    .box-knowledge {
+      margin-bottom: 15px;
+    }
+
+    .box-knowledge:last-child {
+      margin-bottom: 0;
+    }
+
     .box-knowledge__subtitle {
-      text-transform: uppercase;
-      font-weight: bold;
-      font-size: 20px;
       color: var(--info);
     }
-
-    /* .box-knowledge__subtitle::before {
-      content: "";
-      position: relative;
-      top: -12px;
-      left: 0px;
-      width: 15px;
-      border-bottom: 2px solid rgba(0,0,0,.1);
-      margin-right: 15px;
-      padding-right: 15px;
-    }
-
-    .box-knowledge__subtitle::after {
-      content: "";
-      position: absolute;
-      top: 12px;
-      border-bottom: 2px solid rgba(0,0,0,.1);
-      margin-left: 15px;
-      width: 25%;
-    } */
 
     .box-knowledge .row:last-child {
       padding-bottom: 0;
@@ -132,6 +106,35 @@ h1, h2, h3, h4, h5 {
 
     .box-knowledge .row:last-child .table-responsive:last-child table tbody:last-child tr:last-child td{
       padding-bottom: 0;
+    }
+
+    /* Box Experiences */
+    .box-experiences__subtitle {
+      color: var(--info);
+      float: left;
+      line-height: 50px;
+    }
+
+    .box-experiences__content {
+      clear: both;
+      margin-left: -15px;
+    }
+
+    .box-experiences__content__title {
+      margin: 0;
+    }
+
+    /* Box Label */
+    .box-label {
+      display: inline-block;
+      margin: 5px;
+      padding: 5px 10px;
+      background-color: var(--energy);
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--white);
+      border-radius: 20px;
+      text-shadow: 2px 2px 1px #0000004a;
     }
 
   /* -- Fonts */
@@ -156,6 +159,14 @@ h1, h2, h3, h4, h5 {
       text-align: right;
     }
 
+    .text--capitalize {
+      text-transform: capitalize;
+    }
+
+    .text--uppercase {
+      text-transform: uppercase;
+    }
+
   /* Hr */
     hr {
       width: 100%;
@@ -164,6 +175,39 @@ h1, h2, h3, h4, h5 {
   /* Table */
     .table {
       color: var(--gray);
+    }
+
+  /* Lists */
+    ol, ul {
+      padding-left: 15px;
+    }
+
+    ol ol, ol ul, ul ul, ul, ol {
+      margin-bottom: 15px;
+    }
+
+    ol {
+      counter-reset:item;
+    }
+     
+    ol>li {
+      list-style-type: none;
+      counter-increment: item;
+    }
+     
+    ol>li:before {
+      padding-right: 8px;
+      font-weight: bold;
+      font-size: 32px;
+      margin-left: -15px;
+      content: counter(item) ".";
+      float: left;
+      color: var(--info);
+    }
+
+  /* Buttons */
+    .btn {
+      margin-bottom: 15px;
     }
 
 /* Colors */
@@ -258,4 +302,8 @@ h1, h2, h3, h4, h5 {
 
   .--no-margin-right {
     margin-bottom: 0 !important;
+  }
+
+  .--no-list-style {
+    list-style: none;
   }
