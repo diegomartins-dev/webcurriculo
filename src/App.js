@@ -3,13 +3,38 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header.js';
 import Footer from './components/Footer/Footer';
+import Boxskills from './components/Box-skills/Box-skills';
 
 function App() {
   return (
     <div className="App">
       <Header />
 
-      
+      {/* title={<React.Fragment><span class="text--light text--capitalize">Perfil</span> Profissional</React.Fragment>} */}
+      <Boxskills>
+        <div className="row">
+          <div className="col-12">
+              <h3 className="box-skills__sub-title">Contatos</h3>
+          </div>
+          <div className="col-md-12 col-lg-3">
+              <ul className="--no-list-style --no-padding-left">
+                  <li>(71) 3014-6861</li>
+                  <li> (71) 9 9332-9298 </li>
+              </ul>
+          </div>
+          <div className="col-md-12 col-lg-9">
+              <ul className="--no-margin-bottom --no-list-style --no-padding-left">
+                  <li>dgmartins87@gmail.com</li>
+                  <li>dgmartins87@hotmail.com</li>
+                  <li>
+                      <a href="http://dgsite.pessoal.ws" target="_blank">
+                          http://dgsite.pessoal.ws
+                      </a>
+                  </li>
+              </ul>
+          </div>
+        </div>
+      </Boxskills>
 
       <div className="box-skills">
         <div className="bg--info box--shadow">
