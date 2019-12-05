@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Web Curriculo - Diego Guimarães Martins",
+  "name": "Um web curriculo feito em react.js",
   "icons": [
     {
       "src": "favicon.ico",

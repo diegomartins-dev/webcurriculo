@@ -1,6 +1,6 @@
 # Web Curriculo - Diego Guimarães Martins
 
-http://webcurriculo.herokuapp.com
+https://webcurriculo.herokuapp.com
 
 ## Tecnologias usadas
 
