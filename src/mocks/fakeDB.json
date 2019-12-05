@@ -1,0 +1,861 @@
+{
+  "contacts": [
+    {
+      "content": "dgmartins87@gmail.com",
+      "type": "text"
+    },
+    {
+      "content": "dgmartins87@hotmail.com",
+      "type": "text"
+    },
+    {
+      "content": "http://dgsite.pessoal.ws",
+      "url": "http://dgsite.pessoal.ws",
+      "type": "link"
+    }
+  ],
+  "perfil": {
+    "content": "<p>Profissional ativo na área de T.I., <strong>há 05 anos</strong>, formado em <strong>Sistemas para Internet.</strong><br /><strong>Desenvolvedor de Sistemas Web e Mobile</strong>, com foco no desenvolvimento <strong>Frontend/Mobile</strong>, mas também atuante no <strong>Backend</strong>.</p>",
+    "details": [
+      {
+        "content": "Freelancer –",
+        "type": "text"
+      },
+      {
+        "content": "Tempo integral –",
+        "type": "text"
+      },
+      {
+        "content": "Sem condução própria –",
+        "type": "text"
+      },
+      {
+        "content": "Sem disponibilidade para viagens –",
+        "type": "text"
+      }
+    ]
+  },
+  "academics": [
+    {
+      "subtitle": "Especialização em Engenharia de Software",
+      "details": {
+        "institute": "Faculdade Estácio de Sá – Estácio",
+        "modality": "EAD",
+        "status": "Trancado",
+        "year": "2016.1"
+      }
+    },
+    {
+      "subtitle": "Superior Tecnológico em Sistemas para Internet",
+      "details": {
+        "institute": "Universidade Salvador – Unifacs",
+        "modality": "Noturno",
+        "status": "Concluido",
+        "year": "2014.1"
+      }
+    },
+    {
+      "subtitle": "Superior em Engenharia da Computação",
+      "details": {
+        "institute": "Faculdade de Ciências e Tecnologia – Área1",
+        "modality": "Noturno",
+        "status": "Trancado",
+        "year": "2012.1"
+      }
+    }
+  ],
+  "certifiers": {
+    "subtitle": "Certificado de conclusão de curso | Treinamentos",
+    "details": [
+      {
+        "name": "Treinamento Laravel – Principios básicos",
+        "institute": "Conder",
+        "hours": "10h",
+        "year": "2014"
+      },
+      {
+        "name": "Grupo de estudo: Design Patterns",
+        "institute": "Conder",
+        "hours": "--h",
+        "year": "2014"
+      },
+      {
+        "name": "Treinamento da Ferramenta de Desenvolvimento: Maker",
+        "institute": "Softwell",
+        "hours": "40h",
+        "year": "2011"
+      },
+      {
+        "name": "Microsoft Innovation Center: Students to Business – Banco de Dados",
+        "institute": "Estácio de Sá",
+        "hours": "84h",
+        "year": "2010"
+      },
+      {
+        "name": "Manutenção e Suporte à Microcomputadores",
+        "institute": "SENAI",
+        "hours": "120h",
+        "year": "2008"
+      }
+    ]
+  },
+  "knowledges": [
+    {
+      "subtitle": "Bancos de Dados",
+      "subknowledge": [
+        {
+          "name": "Relacionais",
+          "skills": [
+            {
+              "name": "SQL Server",
+              "level": "Avançado"
+            },
+            {
+              "name": "MySQL",
+              "level": "Avançado"
+            },
+            {
+              "name": "PostgreSQL",
+              "level": "Avançado"
+            }
+          ]
+        },
+        {
+          "name": "Não Relacionais",
+          "skills": [
+            {
+              "name": "Firebase Realtime Database",
+              "level": "Avançado"
+            },
+            {
+              "name": "Firebase Cloud Storage",
+              "level": "Avançado"
+            },
+            {
+              "name": "MongoDB",
+              "level": "Intermediário"
+            },
+            {
+              "name": "Amazon AWS S3/Amplify",
+              "level": "Avançado"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtitle": "Backend",
+      "subknowledge": [
+        {
+          "name": "Linguagens",
+          "skills": [
+            {
+              "name": "C",
+              "level": "Intermediário"
+            },
+            {
+              "name": "PHP",
+              "level": "Avançado"
+            },
+            {
+              "name": "Java",
+              "level": "Básico"
+            }
+          ]
+        },
+        {
+          "name": "Frameworks",
+          "skills": [
+            {
+              "name": "Codeigniter",
+              "level": "Avançado"
+            },
+            {
+              "name": "Laravel",
+              "level": "Avançado"
+            },
+            {
+              "name": "ExpressJs",
+              "level": "Intermediário"
+            }
+          ]
+        },
+        {
+          "name": "Engines",
+          "skills": [
+            {
+              "name": "Nodejs",
+              "level": "Avançado"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtitle": "Frontend",
+      "subknowledge": [
+        {
+          "name": "UI",
+          "skills": [
+            {
+              "name": "Bootstrap",
+              "level": "Avançado"
+            },
+            {
+              "name": "FlatUI (versão free)",
+              "level": "Avançado"
+            },
+            {
+              "name": "Semantic UI",
+              "level": "Avançado"
+            },
+            {
+              "name": "Foundation UI",
+              "level": "Avançado"
+            },
+            {
+              "name": "Skeleton Css ",
+              "level": "Avançado"
+            },
+            {
+              "name": "Materialize Css",
+              "level": "Avançado"
+            }
+          ]
+        },
+        {
+          "name": "Linguagens",
+          "skills": [
+            {
+              "name": "HTML",
+              "level": "Avançado"
+            },
+            {
+              "name": "CSS",
+              "level": "Avançado"
+            },
+            {
+              "name": "JavaScript",
+              "level": "Avançado"
+            }
+          ]
+        },
+        {
+          "name": "Frameworks/Engines",
+          "skills": [
+            {
+              "name": "Angular",
+              "level": "Avançado"
+            },
+            {
+              "name": "AngularJS",
+              "level": "Avançado"
+            },
+            {
+              "name": "Ionic 3",
+              "level": "Avançado"
+            },
+            {
+              "name": "JQuery",
+              "level": "Avançado"
+            },
+            {
+              "name": "ReactJs",
+              "level": "Intermediário"
+            },
+            {
+              "name": "Typescript",
+              "level": "Avançado"
+            }
+          ]
+        },
+        {
+          "name": "Pré-processadores",
+          "skills": [
+            {
+              "name": "SASS",
+              "level": "Avançado"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtitle": "Ferramentas",
+      "subknowledge": [
+        {
+          "name": "Desenvolvimento",
+          "skills": [
+            {
+              "name": "Composer",
+              "level": "Avançado"
+            },
+            {
+              "name": "GIT / Bitbucket ",
+              "level": "Avançado"
+            },
+            {
+              "name": "Tortoise SVN",
+              "level": "Intermediário"
+            },
+            {
+              "name": "Gulp",
+              "level": "Avançado"
+            },
+            {
+              "name": "Mongoose",
+              "level": "Intermediário"
+            },
+            {
+              "name": "Npm",
+              "level": "Avançado"
+            },
+            {
+              "name": "Heroku",
+              "level": "Avançado"
+            },
+            {
+              "name": "Apache",
+              "level": "Avançado"
+            },
+            {
+              "name": "Redux",
+              "level": "Intermediário"
+            }
+          ]
+        },
+        {
+          "name": "Web Design",
+          "skills": [
+            {
+              "name": "Fireworks",
+              "level": "Avançado"
+            },
+            {
+              "name": "Illustrator",
+              "level": "Avançado"
+            },
+            {
+              "name": "Photoshop",
+              "level": "Avançado"
+            },
+            {
+              "name": "After Effects",
+              "level": "Intermediário"
+            }
+          ]
+        },
+        {
+          "name": "Escritório",
+          "skills": [
+            {
+              "name": "Pacote Office",
+              "level": "Intermediário"
+            }
+          ]
+        },
+        {
+          "name": "Banco de dados",
+          "skills": [
+            {
+              "name": "MySql Workbench",
+              "level": "Avançado"
+            },
+            {
+              "name": "Phpmyadmin",
+              "level": "Avançado"
+            },
+            {
+              "name": "SQL Server",
+              "level": "Avançado"
+            },
+            {
+              "name": "Access",
+              "level": "Avançado"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtitle": "Sistemas Operacionais",
+      "subknowledge": [
+        {
+          "name": "Desktop",
+          "skills": [
+            {
+              "name": "Windows 7, 8, 10",
+              "level": "Avançado"
+            },
+            {
+              "name": "Ubuntu, Fedora",
+              "level": "Avançado"
+            },
+            {
+              "name": "Mac OS 10.13",
+              "level": "Avançado"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "subtitle": "Freelancer",
+      "offices": [
+        {
+          "name": "Desenvolvedor Frontend",
+          "periods": [
+            {
+              "content": "Agosto/2018 a Atualmente"
+            }
+          ] 
+        }
+      ],
+      "activities": [
+        {
+          "content": "Desenvolvimento de app híbrido usando Ionic 3",
+          "type": "text"
+        },
+        {
+          "content": "Desenvolvimento com tecnologias Frontend",
+          "type": "text"
+        },
+        {
+          "content": "Criação e edição do layout personalizado para app/sistemas web",
+          "type": "text"
+        },
+        {
+          "content": "Versionamento de sistema",
+          "type": "text"
+        },
+        {
+          "content": "Constante vivencia com HTML, CSS, Javascript , Typescript, Ionic, Angular e Firebase",
+          "type": "text"
+        },
+        {
+          "content": "Deploy com firebase, heroku e github",
+          "type": "text"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Bootstrap"
+        },
+        {
+          "name": "Materialize Css"
+        },
+        {
+          "name": "HTML5"
+        },
+        {
+          "name": "CSS3"
+        },
+        {
+          "name": "Javascript"
+        },
+        {
+          "name": "Jquery"
+        },
+        {
+          "name": "Angular"
+        },
+        {
+          "name": "Ionic 3"
+        },
+        {
+          "name": "Typescript"
+        },
+        {
+          "name": "MySql"
+        },
+        {
+          "name": "Git"
+        },
+        {
+          "name": "Bitbucket"
+        },
+        {
+          "name": "SASS"
+        },
+        {
+          "name": "VSCode"
+        },
+        {
+          "name": "XCode"
+        },
+        {
+          "name": "Npm"
+        },
+        {
+          "name": "NodeJs"
+        },
+        {
+          "name": "Firebase"
+        },
+        {
+          "name": "API Facebook"
+        },
+        {
+          "name": "ES2016"
+        },
+        {
+          "name": "Heroku"
+        },
+        {
+          "name": "ExpressJS"
+        },
+        {
+          "name": "MongoDB"
+        },
+        {
+          "name": "Mongoose"
+        },
+        {
+          "name": "ReactJs"
+        },
+        {
+          "name": "Redux"
+        },
+        {
+          "name": "BEM"
+        },
+        {
+          "name": "Utility-First"
+        },
+        {
+          "name": "MVC"
+        },
+        {
+          "name": "Windows 10"
+        },
+        {
+          "name": "Fedora"
+        },
+        {
+          "name": "Mac Os 10.13"
+        }
+      ]
+    },
+    {
+      "subtitle": "Avansys",
+      "offices": [
+        {
+          "name": "Analista de Sistemas Jr",
+          "periods": [
+            {
+              "content": "Setembro/2015 a Março/2016"
+            }
+          ] 
+        }
+      ],
+      "activities": [
+        {
+          "content": "Trabalhar embarcado em um dos clientes da Avansys e desenvolver",
+          "type": "text"
+        },
+        {
+          "content": "Criação de um sistema de pesquisas e formulários para área de educação – Sistema Inculca",
+          "type": "text"
+        },
+        {
+          "content": "Constante vivencia com análise, modelagem do banco de dados e consultas SQL",
+          "type": "text"
+        },
+        {
+          "content": "Manutenção em sistemas com o framework ExtJS",
+          "type": "text"
+        },
+        {
+          "content": "Constante vivencia com Javascript, Jquery, Codeigniter, PHP, Mysql",
+          "type": "text"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Bootstrap"
+        },
+        {
+          "name": "HTML5"
+        },
+        {
+          "name": "CSS3"
+        },
+        {
+          "name": "Javascript"
+        },
+        {
+          "name": "Jquery"
+        },
+        {
+          "name": "ExtJs"
+        },
+        {
+          "name": "MySql"
+        },
+        {
+          "name": "SVN Tortoise"
+        },
+        {
+          "name": "Codeigniter"
+        },
+        {
+          "name": "PHP"
+        },
+        {
+          "name": "Apache"
+        },
+        {
+          "name": "Composer"
+        },
+        {
+          "name": "MVC"
+        },
+        {
+          "name": "MySQL Administrator"
+        },
+        {
+          "name": "NetBeans"
+        },
+        {
+          "name": "Access"
+        },
+        {
+          "name": "Windows"
+        }
+      ]
+    },
+    {
+      "subtitle": "Conder",
+      "offices": [
+        {
+          "name": "Estagiário",
+          "periods": [
+            {
+              "content": "Abril/2013 a Outubro/2013"
+            },
+            {
+              "content": "Dezembro/2013 a Abril/2014"
+            }
+          ] 
+        },
+        {
+          "name": "Programador de Sistemas",
+          "periods": [
+            {
+              "content": "Abril/2014 a Novembro/2014"
+            }
+          ] 
+        }
+      ],
+      "activities": [
+        {
+          "content": "Acompanhar/colaborar com as atividades desenvolvidas no setor Getec",
+          "type": "text"
+        },
+        {
+          "content": "Desenvolver módulos dentro do sistema de licitação",
+          "type": "text"
+        },
+        {
+          "content": "Desenvolver projetos para o setor Sedet",
+          "type": "text"
+        },
+        {
+          "content": "Dar manutenção e desenvolvimento a intranet da CONDER",
+          "type": "text"
+        },
+        {
+          "content": "Desenvolver o formulário de Conder40anos",
+          "type": "text"
+        },
+        {
+          "content": "Participar de treinamentos internos do setor",
+          "type": "text"
+        },
+        {
+          "content": "Dar manutenção e desenvolvimento de sistemas para a CONDER",
+          "type": "text"
+        },
+        {
+          "content": "Criar banner e pop-up para a comunicação dentro da intranet do sistema",
+          "type": "text"
+        },
+        {
+          "content": "Criar avisos criativos para intranet",
+          "type": "text"
+        },
+        {
+          "content": "Criar a identidade visual da Agenda de Treinamentos CONDER",
+          "type": "text"
+        },
+        {
+          "content": "Criar e/ou manter as interfaces gráficas dos sistemas",
+          "type": "text"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Bootstrap"
+        },
+        {
+          "name": "HTML5"
+        },
+        {
+          "name": "CSS3"
+        },
+        {
+          "name": "Javascript"
+        },
+        {
+          "name": "Jquery"
+        },
+        {
+          "name": "Laravel"
+        },
+        {
+          "name": "MySql"
+        },
+        {
+          "name": "AngularJs"
+        },
+        {
+          "name": "Codeigniter"
+        },
+        {
+          "name": "PHP"
+        },
+        {
+          "name": "Foundation UI"
+        },
+        {
+          "name": "Flat UI"
+        },
+        {
+          "name": "Joomla"
+        },
+        {
+          "name": "Apache"
+        },
+        {
+          "name": "BitNami"
+        },
+        {
+          "name": "Photoshop"
+        },
+        {
+          "name": "Illustrator"
+        },
+        {
+          "name": "Fireworks"
+        },
+        {
+          "name": "Composer"
+        },
+        {
+          "name": "Git"
+        },
+        {
+          "name": "FengOffice"
+        },
+        {
+          "name": "VirtualMachine"
+        },
+        {
+          "name": "MVC"
+        },
+        {
+          "name": "Windows"
+        },
+        {
+          "name": "Ubuntu"
+        }
+      ]
+    },
+    {
+      "subtitle": "Freire Informática",
+      "offices": [
+        {
+          "name": "Estagiário de Desenvolvimento",
+          "periods": [
+            {
+              "content": "Fevereiro/2011 a Fevereiro/2012"
+            },
+            {
+              "content": "Março/2012 a Julho/2012"
+            }
+          ] 
+        },
+        {
+          "name": "Programador de Sistemas",
+          "periods": [
+            {
+              "content": "Abril/2014 a Novembro/2014"
+            }
+          ] 
+        }
+      ],
+      "activities": [
+        {
+          "content": "Desenvolver um Sistema de Gerenciamento de Currículos do princípio",
+          "type": "text"
+        },
+        {
+          "content": "Responsabilizar-me pelo gerenciamento/manutenção do Sistema de Controle de Cargos",
+          "type": "text"
+        },
+        {
+          "content": "Responsabilizar-me pelo gerenciamento/manutenção/finalização do Sistema de Ponto Eletrônico",
+          "type": "text"
+        },
+        {
+          "content": "Contribuir com o desenvolvimento/manutenção do Sistema de Folha de Pagamento (Principal Sistema do Setor)",
+          "type": "text"
+        },
+        {
+          "content": "Contribuir com a adição ou desenvolvimento de novas rotinas no Sistema de Folha da Desenbahia",
+          "type": "text"
+        },
+        {
+          "content": "Participar da migração e implementação do Sistema de Folha de Pagamento na Codeba",
+          "type": "text"
+        },
+        {
+          "content": "Desenvolver diversos relatórios para diversos fins nos sistemas citados acima",
+          "type": "text"
+        },
+        {
+          "content": "Ótima vivencia com o SGBD SQL Server 2008",
+          "type": "text"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Maker"
+        },
+        {
+          "name": "SqlServer 2003, 2008"
+        },
+        {
+          "name": "Oracle"
+        },
+        {
+          "name": "Pacote Office"
+        },
+        {
+          "name": "Leitor biométrico"
+        },
+        {
+          "name": "Windows"
+        },
+        {
+          "name": "Lógica de Programação"
+        },
+        {
+          "name": "Modelagem de dados"
+        }        
+      ]
+    }
+  ]
+}

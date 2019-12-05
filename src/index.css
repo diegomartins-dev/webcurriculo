@@ -7,7 +7,7 @@
 
 :root {
   --gray: #707070;
-  --gray-light: #7070701f;
+  --gray-light: #0000001a;
   --white: #FFF;
   --energy: #F99C33;
   --info: #3390f9;
@@ -94,6 +94,19 @@ h1, h2, h3, h4, h5 {
 
     .box-knowledge__subtitle {
       color: var(--info);
+      background-color: var(--white);
+      padding-right: 15px;
+    }
+
+    .box-knowledge__subtitle::after {
+      content: '';
+      border-bottom: 1px solid var(--gray-light);
+      position: absolute;
+      top: 18px;
+      left: 0;
+      width: calc(100% - 15px);
+      z-index: -1;
+      margin-left: 15px;
     }
 
     .box-knowledge .row:last-child {
@@ -111,8 +124,21 @@ h1, h2, h3, h4, h5 {
     /* Box Experiences */
     .box-experiences__subtitle {
       color: var(--info);
+      background-color: var(--white);
       float: left;
       line-height: 50px;
+      padding-right: 15px;
+    }
+
+    .box-experiences__subtitle::after {
+      content: '';
+      border-bottom: 1px solid var(--gray-light);
+      position: absolute;
+      top: 24px;
+      left: 0;
+      width: calc(100% - 15px);
+      z-index: -1;
+      margin-left: 15px;
     }
 
     .box-experiences__content {
@@ -203,6 +229,7 @@ h1, h2, h3, h4, h5 {
       content: counter(item) ".";
       float: left;
       color: var(--info);
+      background-color: var(--white);
     }
 
   /* Buttons */
