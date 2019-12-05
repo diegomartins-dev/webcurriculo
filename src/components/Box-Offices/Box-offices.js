@@ -3,7 +3,7 @@ import React from 'react'
 function periods(items){
     return (
         items.map((item, index) => {
-            return <p key={index}>{item.content}</p>;
+            return <p key={index} className={(items.length != index + 1) ? '--no-margin-bottom':''}>{item.content}</p>;
         })
     )
 }

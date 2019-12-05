@@ -96,13 +96,14 @@ h1, h2, h3, h4, h5 {
       color: var(--info);
       background-color: var(--white);
       padding-right: 15px;
+      line-height: 31px;
     }
 
     .box-knowledge__subtitle::after {
       content: '';
       border-bottom: 1px solid var(--gray-light);
       position: absolute;
-      top: 18px;
+      top: 50%;
       left: 0;
       width: calc(100% - 15px);
       z-index: -1;
@@ -122,23 +123,23 @@ h1, h2, h3, h4, h5 {
     }
 
     /* Box Experiences */
+    .box-experiences hr:last-child {
+      display: none;
+    }
+
+    .box-experiences__div__subtitle {
+      margin-bottom: 15px;
+      margin-left: -15px;
+    }
+
     .box-experiences__subtitle {
       color: var(--info);
       background-color: var(--white);
-      float: left;
-      line-height: 50px;
-      padding-right: 15px;
-    }
-
-    .box-experiences__subtitle::after {
-      content: '';
-      border-bottom: 1px solid var(--gray-light);
-      position: absolute;
-      top: 24px;
+      position: relative;
+      line-height: 32px;
+      display: inline;
+      top: 10px;
       left: 0;
-      width: calc(100% - 15px);
-      z-index: -1;
-      margin-left: 15px;
     }
 
     .box-experiences__content {
@@ -148,6 +149,11 @@ h1, h2, h3, h4, h5 {
 
     .box-experiences__content__title {
       margin: 0;
+    }
+
+    .box-experiences__divider {
+      margin-left: -15px;
+      padding: 7px;
     }
 
     /* Box Label */
