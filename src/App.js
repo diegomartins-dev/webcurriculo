@@ -145,7 +145,7 @@ function App() {
       >
         <div className="row --no-padding">
           <div className="col-12">
-            <ul className="list-academics --no-list-style --no-padding-left">
+            <ul className="list-academics --no-list-style --no-padding-left --no-margin-bottom">
               {items.academics.map((item, index) => {
                 return (
                   <li key={index}>
