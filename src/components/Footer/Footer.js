@@ -9,9 +9,9 @@ export default class Footer extends Component {
                         <div className="col-sm-12 col-md-6 text--white text--shadow">
                             <h5>Links Úteis</h5>
                             <ul className="--no-list-style --no-padding-left">
-                                <li><a className="text--white" href="#">GitHub</a></li>
-                                <li><a className="text--white" href="#">Linkedin</a></li>
-                                <li><a className="text--white" href="#">Portifólio</a></li>
+                                <li><a className="text--white" target="_blank" href="https://github.com/diegohyenna">GitHub</a></li>
+                                <li><a className="text--white" target="_blank" href="https://www.linkedin.com/in/diego-martins-362136123/">Linkedin</a></li>
+                                <li><a className="text--white" target="_blank" href="http://dgsite.pessoal.ws">Portifólio</a></li>
                             </ul>                            
                         </div>
                         {/* <div className="col-sm-12 col-md-6 text-sm-left text-md-right">
