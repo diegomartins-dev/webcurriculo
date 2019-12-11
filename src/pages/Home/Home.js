@@ -11,7 +11,7 @@ import Footer from "../../components/Footer/Footer";
 
 const items = db.default;
 
-function Home() {
+const Home = () => {
   return (
     <React.Fragment>
       <Header />
