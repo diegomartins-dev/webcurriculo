@@ -4,9 +4,10 @@ import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
 import Home from "./pages/Home/Home";
 import Login from "./pages/Login/Login";
-import { isAuthenticated } from "./helpers/Auth";
 import Intro from "./pages/Intro/Intro";
 import Perfil from "./pages/Perfil/Perfil";
+
+import { isAuthenticated } from "./helpers/Auth";
 
 const PrivateRoute = ({ component: Component, ...rest }) => {
   return (
