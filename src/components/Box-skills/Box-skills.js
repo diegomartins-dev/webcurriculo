@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from 'prop-types';
 
 function BoxSkills(props) {
   return (
@@ -36,10 +35,5 @@ function BoxSkills(props) {
     </div>
   );
 }
-
-BoxSkills.propTypes = {
-  title: PropTypes.object,
-  subtitle: PropTypes.object
-};
 
 export default BoxSkills;
