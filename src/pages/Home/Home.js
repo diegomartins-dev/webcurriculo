@@ -2,12 +2,12 @@ import React from "react";
 import * as db from '../../mocks/fakeDB.json';
 import Header from "../../components/Header/Header";
 import BoxSkills from "../../components/Box-Skills/Box-skills";
-import ListDefault from "../../components/List-Default/List-default.js";
-import BoxAcademics from "../../components/Box-Academics/Box-academics.js";
-import BoxCertifier from "../../components/Box-Certifier/Box-certifier.js";
-import BoxKnowledge from "../../components/Box-Knowledge/Box-knowledge.js";
-import BoxExperiences from "../../components/Box-Experiences/Box-experiences.js";
-import Footer from "../../components/Footer/Footer.js";
+import ListDefault from "../../components/List-Default/List-default";
+import BoxAcademics from "../../components/Box-Academics/Box-academics";
+import BoxCertifier from "../../components/Box-Certifier/Box-certifier";
+import BoxKnowledge from "../../components/Box-Knowledge/Box-knowledge";
+import BoxExperiences from "../../components/Box-Experiences/Box-experiences";
+import Footer from "../../components/Footer/Footer";
 
 const items = db.default;
 
