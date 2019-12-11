@@ -1,8 +1,12 @@
 {
   "name": "webcurriculo",
+  "description": "Meu web curriculo - DG Site",
   "homepage" : "https://webcurriculo.herokuapp.com",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": "10.16.3"
+  },
   "dependencies": {
     "antd": "^3.26.2",
     "react": "^16.12.0",
