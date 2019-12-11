@@ -1,7 +1,7 @@
 import React from "react";
 import * as db from '../../mocks/fakeDB.json';
 import Header from "../../components/Header/Header";
-import BoxSkills from "../../components/Box-Skills/Box-skills";
+import BoxSkills from "../../components/Box-Skills/Box-skills.js";
 import ListDefault from "../../components/List-Default/List-default";
 import BoxAcademics from "../../components/Box-Academics/Box-academics";
 import BoxCertifier from "../../components/Box-Certifier/Box-certifier";
