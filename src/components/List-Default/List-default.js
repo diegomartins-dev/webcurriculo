@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 function draw(items) {
   return items.map((item, index) => {
@@ -22,5 +23,10 @@ function draw(items) {
 function ListDefault(props) {
   return <ul className={props.class}>{draw(props.items)}</ul>;
 }
+
+ListDefault.propTypes = {
+  class: PropTypes.string,
+  items: PropTypes.array
+};
 
 export default ListDefault;

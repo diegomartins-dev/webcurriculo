@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 function BoxSkills(props) {
   return (
@@ -8,7 +9,7 @@ function BoxSkills(props) {
           <div className="container">
             <div className="row">
               <div className="col-12">
-                <h2 className="font--uppercase text--white text--shadow">
+                <h2 className="font--uppercase text--white text--shadow --no-margin-bottom">
                   {props.title}
                 </h2>
               </div>
@@ -35,5 +36,10 @@ function BoxSkills(props) {
     </div>
   );
 }
+
+BoxSkills.propTypes = {
+  title: PropTypes.object,
+  subtitle: PropTypes.object
+};
 
 export default BoxSkills;

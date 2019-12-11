@@ -24,7 +24,7 @@ function draw(items) {
                 className="--no-padding-top --no-padding-left-right"
                 colSpan="2"
               >
-                <h3>{item.name}</h3>
+                <h3 className="--no-margin">{item.name}</h3>
               </th>
             </tr>
           </thead>

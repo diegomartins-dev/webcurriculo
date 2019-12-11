@@ -2,38 +2,44 @@ import React from "react";
 
 const draw = function(items) {
   let print = [];
-  let index = 0;
-  let maxIndex = Object.keys(items).length;
+  let indexB = 0;
+  let maxIndex = 0;
 
-  for (let item in items) {
-    index == 0
-      ? print.push(
+  items.map( (item, indexA) => {
+    indexB = 0;
+    maxIndex = Object.keys(item).length;
+    for (let prop in item) {
+      indexB == 0
+        ? print.push(
+            <div
+              key={Math.random()}
+              className="col-xs-12 col-sm-6 box-academics__items d-flex justify-content-start"
+            >
+              {item[prop]}
+            </div>
+          )
+      : indexB + 1 == maxIndex
+        ? print.push(
           <div
-            key={index}
-            className="col-xs-12 col-sm-6 box-academics__items d-flex justify-content-start"
-          >
-            {items[item]}
-          </div>
-        )
-      : index + 1 == maxIndex
-      ? print.push(
-          <div
-            key={index}
+            key={Math.random()}
             className="col-xs-12 col-sm-2 box-academics__items d-flex justify-content-sm-start justify-content-md-end"
           >
-            {items[item]}
+            {item[prop]}
           </div>
         )
       : print.push(
           <div
-            key={index}
+            key={Math.random()}
             className="col-xs-12 col-sm-2 box-academics__items d-flex justify-content-sm-start justify-content-md-center"
           >
-            {items[item]}
+            {item[prop]}
           </div>
         );
-    index++;
-  }
+      indexB++;
+    }
+    indexA + 1 != items.length &&
+      print.push(<hr key={items.length + indexA + 1} />)
+  });
 
   return print;
 };

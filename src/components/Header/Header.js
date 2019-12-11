@@ -9,7 +9,7 @@ export default class Header extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-12">
-                                <h1 className="font--uppercase text--shadow text--white text--align-center"><span className="text--light text--capitalize">Web Curriculo</span> Diego Guimarães Martins</h1>
+                                <h1 className="font--uppercase text--shadow text--white text--align-center"><span className="text--light text--capitalize">Web Curriculo</span><br/> Diego Guimarães Martins</h1>
                             </div>
                         </div>
                     </div>

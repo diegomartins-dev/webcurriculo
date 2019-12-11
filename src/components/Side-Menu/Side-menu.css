@@ -1,0 +1,11 @@
+.ant-menu {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+@media all and (min-height: 480px){
+    .ant-menu-item-login {
+        position: absolute;
+        bottom: 0;
+    }
+}

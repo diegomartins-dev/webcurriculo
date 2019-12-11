@@ -1,14 +1,14 @@
 import React from "react";
 import BoxOffices from "../Box-Offices/Box-offices";
-import ListDefault from "../List-Default.js/List-Default";
+import ListDefault from "../List-Default/List-default";
 import BoxLabel from "../Box-Label/Box-label";
 
 function draw(items) {
   return items.map((item, index) => {
     return (
-      <React.Fragment>
-        <li key={index}>
-          <div className="position-relative box-experiences__div__subtitle">
+      <React.Fragment key={index}>
+        <li>
+          <div className={"position-relative box-experiences__div__subtitle " + ((index == 0) ? '--no-margin-top' : '')}>
             <h3 className="box-experiences__subtitle text--uppercase --no-margin-bottom">
               {item.subtitle}
             </h3>
@@ -32,7 +32,7 @@ function draw(items) {
             </p>
           </div>
         </li>
-        <hr className="box-experiences__divider --no-margin-right"/>
+        {/* <hr className="box-experiences__divider"/> */}
       </React.Fragment>
     );
   });

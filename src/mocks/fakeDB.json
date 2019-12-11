@@ -38,30 +38,30 @@
   "academics": [
     {
       "subtitle": "Especialização em Engenharia de Software",
-      "details": {
+      "details": [{
         "institute": "Faculdade Estácio de Sá – Estácio",
         "modality": "EAD",
         "status": "Trancado",
         "year": "2016.1"
-      }
+      }]
     },
     {
       "subtitle": "Superior Tecnológico em Sistemas para Internet",
-      "details": {
+      "details": [{
         "institute": "Universidade Salvador – Unifacs",
         "modality": "Noturno",
         "status": "Concluido",
         "year": "2014.1"
-      }
+      }]
     },
     {
       "subtitle": "Superior em Engenharia da Computação",
-      "details": {
+      "details": [{
         "institute": "Faculdade de Ciências e Tecnologia – Área1",
         "modality": "Noturno",
         "status": "Trancado",
         "year": "2012.1"
-      }
+      }]
     }
   ],
   "certifiers": {

@@ -1,0 +1,9 @@
+.layout {
+    padding: 0 50px
+}
+
+@media all and (max-width: 480px){
+    .layout {
+        padding: 0 15px
+    }
+}
