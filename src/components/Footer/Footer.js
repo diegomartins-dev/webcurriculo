@@ -43,7 +43,7 @@ export default class Footer extends Component {
               </ul>
             </div>
             <div className="col-sm-12 col-md-6 text-sm-left text-md-right">
-              {/* <Link to={"/login"}>
+              <Link to={"/login"}>
                 <a
                   href="#"
                   className="btn btn-outline-light text--shadow"
@@ -52,7 +52,7 @@ export default class Footer extends Component {
                     Entrar <span className="text--light">no gerenciador</span>
                   </h5>
                 </a>
-              </Link> */}
+              </Link>
             </div>
             <div className="col-12">
               <small className="text--white text--shadow">

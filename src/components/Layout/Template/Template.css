@@ -1,5 +1,6 @@
 .layout {
-    padding: 0 50px
+    padding: 0 50px;
+    min-height: 100vh;
 }
 
 @media all and (max-width: 480px){

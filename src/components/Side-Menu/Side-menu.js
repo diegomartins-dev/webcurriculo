@@ -4,19 +4,31 @@ import { Link } from "react-router-dom";
 
 import "./Side-menu.css";
 
-const { SubMenu } = Menu;
+import { disconnect } from "../../helpers/Auth";
 
+const { SubMenu } = Menu;
 class SideMenu extends Component {
   constructor(props) {
     super(props);
   }
 
+  logout = (e) => {
+    e.preventDefault();
+    disconnect();
+    this.props.history.push("/login");
+  }
+
   render() {
+    const { activeKey, openKey } =
+      this.props.location.state && this.props.location.state.menu
+        ? this.props.location.state.menu
+        : "";
+
     return (
       <Menu
         defaultSelectedKeys={["1"]}
-        defaultOpenKeys={[this.props.location.state.menu.openKey]}
-        selectedKeys={[this.props.location.state.menu.activeKey]}
+        defaultOpenKeys={[openKey ? openKey : ""]}
+        selectedKeys={[activeKey ? activeKey : "1"]}
         mode="inline"
         theme="dark"
         inlineCollapsed={true}
@@ -114,7 +126,7 @@ class SideMenu extends Component {
           }
         >
           <Menu.Item key="10">Diego Guimarães</Menu.Item>
-          <Menu.Item key="11">Sair</Menu.Item>
+          <Menu.Item key="11"><a href="#" onClick={this.logout}>Sair</a></Menu.Item>
         </SubMenu>
       </Menu>
     );
