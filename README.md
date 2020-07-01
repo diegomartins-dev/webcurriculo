@@ -1,6 +1,6 @@
 # Web Curriculo - Diego Guimarães Martins
 
-[Link de demonstração]("https://webcurriculo.web.app")
+https://webcurriculo.web.app
 
 ## Tecnologias usadas
 
