@@ -1,7 +1,7 @@
 import React from "react";
 import * as db from '../../mocks/fakeDB.json';
 import Header from "../../components/Header/Header";
-import BoxSkills from "../../components/Box-Skills/Box-skills.js";
+import BoxSkills from "../../components/Box-skills/Box-skills";
 import ListDefault from "../../components/List-Default/List-default";
 import BoxAcademics from "../../components/Box-Academics/Box-academics";
 import BoxCertifier from "../../components/Box-Certifier/Box-certifier";
@@ -103,7 +103,7 @@ const Home = () => {
       >
         <div className="row --no-padding">
           <div className="col-12">
-            <p className="--no-margin-bottom">Brasileiro, 31 anos, solteiro.</p>
+            <p className="--no-margin-bottom">{items.info.content}</p>
           </div>
         </div>
       </BoxSkills>

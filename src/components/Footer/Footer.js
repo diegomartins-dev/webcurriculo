@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 export default class Footer extends Component {
   render() {
@@ -25,7 +25,7 @@ export default class Footer extends Component {
                     className="text--white"
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://www.linkedin.com/in/diego-martins-362136123/"
+                    href="https://www.linkedin.com/in/diego-guimaraes-362136123/"
                   >
                     Linkedin
                   </a>
@@ -35,14 +35,14 @@ export default class Footer extends Component {
                     className="text--white"
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="http://dgsite.pessoal.ws"
+                    href="http://dgsite.web.app"
                   >
                     Portifólio
                   </a>
                 </li>
               </ul>
             </div>
-            <div className="col-sm-12 col-md-6 text-sm-left text-md-right">
+            {/*<div className="col-sm-12 col-md-6 text-sm-left text-md-right">
               <Link to={"/login"}>
                 <a
                   href="#"
@@ -53,7 +53,7 @@ export default class Footer extends Component {
                   </h5>
                 </a>
               </Link>
-            </div>
+    </div>*/}
             <div className="col-12">
               <small className="text--white text--shadow">
                 Todos os direitos reservados a Diego Guimarães Martins

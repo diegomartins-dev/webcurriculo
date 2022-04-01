@@ -1,4 +1,7 @@
 {
+  "info": {
+    "content": "Brasileiro, 34 anos, solteiro."
+  },
   "contacts": [
     {
       "content": "dgmartins87@gmail.com",
@@ -9,18 +12,18 @@
       "type": "text"
     },
     {
-      "content": "http://dgsite.pessoal.ws",
-      "url": "http://dgsite.pessoal.ws",
+      "content": "(71) 9 9332-9298",
+      "type": "text"
+    },
+    {
+      "content": "http://dgsite.web.app",
+      "url": "http://dgsite.web.app",
       "type": "link"
     }
   ],
   "perfil": {
-    "content": "<p>Profissional ativo na área de T.I., <strong>há 05 anos</strong>, formado em <strong>Sistemas para Internet.</strong><br /><strong>Desenvolvedor de Sistemas Web e Mobile</strong>, com foco no desenvolvimento <strong>Frontend/Mobile</strong>, mas também atuante no <strong>Backend</strong>.</p>",
+    "content": "<p>Profissional ativo na área de T.I. <strong>desde 2011</strong>, formado em <strong>Sistemas para Internet</strong>. <br/><strong>Desenvolvedor de Sistemas Web e Mobile, com foco no desenvolvimento Frontend/Mobile</strong>, mas também com sólidos conhecimentos de <strong>Backend e Banco de dados</strong>.</p>",
     "details": [
-      {
-        "content": "Freelancer –",
-        "type": "text"
-      },
       {
         "content": "Tempo integral –",
         "type": "text"
@@ -38,30 +41,36 @@
   "academics": [
     {
       "subtitle": "Especialização em Engenharia de Software",
-      "details": [{
-        "institute": "Faculdade Estácio de Sá – Estácio",
-        "modality": "EAD",
-        "status": "Trancado",
-        "year": "2016.1"
-      }]
+      "details": [
+        {
+          "institute": "Faculdade Estácio de Sá – Estácio",
+          "modality": "EAD",
+          "status": "Trancado",
+          "year": "2016.1"
+        }
+      ]
     },
     {
       "subtitle": "Superior Tecnológico em Sistemas para Internet",
-      "details": [{
-        "institute": "Universidade Salvador – Unifacs",
-        "modality": "Noturno",
-        "status": "Concluido",
-        "year": "2014.1"
-      }]
+      "details": [
+        {
+          "institute": "Universidade Salvador – Unifacs",
+          "modality": "Noturno",
+          "status": "Concluido",
+          "year": "2014.1"
+        }
+      ]
     },
     {
       "subtitle": "Superior em Engenharia da Computação",
-      "details": [{
-        "institute": "Faculdade de Ciências e Tecnologia – Área1",
-        "modality": "Noturno",
-        "status": "Trancado",
-        "year": "2012.1"
-      }]
+      "details": [
+        {
+          "institute": "Faculdade de Ciências e Tecnologia – Área1",
+          "modality": "Noturno",
+          "status": "Trancado",
+          "year": "2012.1"
+        }
+      ]
     }
   ],
   "certifiers": {
@@ -248,11 +257,7 @@
               "level": "Avançado"
             },
             {
-              "name": "AngularJS",
-              "level": "Avançado"
-            },
-            {
-              "name": "Ionic 3",
+              "name": "Ionic",
               "level": "Avançado"
             },
             {
@@ -265,6 +270,14 @@
             },
             {
               "name": "Typescript",
+              "level": "Avançado"
+            },
+            {
+              "name": "React Native",
+              "level": "Básico"
+            },
+            {
+              "name": "NextJS",
               "level": "Avançado"
             }
           ]
@@ -329,18 +342,18 @@
           "skills": [
             {
               "name": "Fireworks",
-              "level": "Avançado"
+              "level": "Intermediário"
             },
             {
               "name": "Illustrator",
-              "level": "Avançado"
+              "level": "Intermediário"
             },
             {
               "name": "Photoshop",
-              "level": "Avançado"
+              "level": "Intermediário"
             },
             {
-              "name": "After Effects",
+              "name": "Figma",
               "level": "Intermediário"
             }
           ]
@@ -366,12 +379,12 @@
               "level": "Avançado"
             },
             {
-              "name": "SQL Server",
+              "name": "SQL Server Management Studio",
               "level": "Avançado"
             },
             {
               "name": "Access",
-              "level": "Avançado"
+              "level": "Intermediário"
             }
           ]
         }
@@ -384,7 +397,7 @@
           "name": "Desktop",
           "skills": [
             {
-              "name": "Windows 7, 8, 10",
+              "name": "Windows 7, 8, 10, 11",
               "level": "Avançado"
             },
             {
@@ -402,18 +415,130 @@
   ],
   "experiences": [
     {
-      "subtitle": "Freelancer",
+      "subtitle": "Me Salva",
       "offices": [
         {
           "name": "Desenvolvedor Frontend",
           "periods": [
             {
-              "content": "Agosto/2018 a Atualmente"
+              "content": "Novembro/2020 a Fevereiro/2021"
             }
-          ] 
+          ]
         }
       ],
       "activities": [
+        {
+          "content": "Desenvolvimento frontend dos sistemas de cursos voltados para o Enem",
+          "type": "text"
+        },
+        {
+          "content": "Code Review",
+          "type": "text"
+        },
+        {
+          "content": "Peer Programming",
+          "type": "text"
+        },
+        {
+          "content": "Scrum",
+          "type": "text"
+        },
+        {
+          "content": "Versionamento de sistema",
+          "type": "text"
+        },
+        {
+          "content": "Constante vivencia com HTML, CSS, Javascript, Typescript, React, NextJs",
+          "type": "text"
+        },
+        {
+          "content": "Deploy com github",
+          "type": "text"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Bootstrap"
+        },
+        {
+          "name": "HTML5"
+        },
+        {
+          "name": "CSS3"
+        },
+        {
+          "name": "Javascript"
+        },
+        {
+          "name": "ReactJs"
+        },
+        {
+          "name": "NextJs"
+        },
+        {
+          "name": "Typescript"
+        },
+        {
+          "name": "Styled Components"
+        },
+        {
+          "name": "Git"
+        },
+        {
+          "name": "VSCode"
+        },
+        {
+          "name": "SASS"
+        },
+        {
+          "name": "VSCode"
+        },
+        {
+          "name": "Npm"
+        },
+        {
+          "name": "NodeJs"
+        },
+        {
+          "name": "API Facebook"
+        },
+        {
+          "name": "ES2016"
+        },
+        {
+          "name": "Heroku"
+        },
+        {
+          "name": "ExpressJS"
+        },
+        {
+          "name": "API"
+        },
+        {
+          "name": "Windows 10"
+        },
+        {
+          "name": "Fedora"
+        }
+      ]
+    },
+    {
+      "subtitle": "Kopicup",
+      "offices": [
+        {
+          "name": "Desenvolvedor Frontend Mobile",
+          "periods": [
+            {
+              "content": "Junho/2018 a Abril/2019"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "content": "Desenvolvimento do app Fitnu",
+          "type": "text"
+        },
         {
           "content": "Desenvolvimento de app híbrido usando Ionic 3",
           "type": "text"
@@ -423,7 +548,7 @@
           "type": "text"
         },
         {
-          "content": "Criação e edição do layout personalizado para app/sistemas web",
+          "content": "Criação e edição do layout personalizado para o app",
           "type": "text"
         },
         {
@@ -442,9 +567,6 @@
       "technologies": [
         {
           "name": "Bootstrap"
-        },
-        {
-          "name": "Materialize Css"
         },
         {
           "name": "HTML5"
@@ -507,25 +629,19 @@
           "name": "ExpressJS"
         },
         {
-          "name": "MongoDB"
+          "name": "AWS Amplify"
         },
         {
-          "name": "Mongoose"
+          "name": "AWS S3"
         },
         {
-          "name": "ReactJs"
+          "name": "Cordova"
         },
         {
-          "name": "Redux"
+          "name": "API"
         },
         {
-          "name": "BEM"
-        },
-        {
-          "name": "Utility-First"
-        },
-        {
-          "name": "MVC"
+          "name": "Ionic Native"
         },
         {
           "name": "Windows 10"
@@ -547,7 +663,7 @@
             {
               "content": "Setembro/2015 a Março/2016"
             }
-          ] 
+          ]
         }
       ],
       "activities": [
@@ -638,7 +754,7 @@
             {
               "content": "Dezembro/2013 a Abril/2014"
             }
-          ] 
+          ]
         },
         {
           "name": "Programador de Sistemas",
@@ -646,7 +762,7 @@
             {
               "content": "Abril/2014 a Novembro/2014"
             }
-          ] 
+          ]
         }
       ],
       "activities": [
@@ -785,7 +901,7 @@
             {
               "content": "Março/2012 a Julho/2012"
             }
-          ] 
+          ]
         },
         {
           "name": "Programador de Sistemas",
@@ -793,7 +909,7 @@
             {
               "content": "Abril/2014 a Novembro/2014"
             }
-          ] 
+          ]
         }
       ],
       "activities": [
@@ -854,7 +970,7 @@
         },
         {
           "name": "Modelagem de dados"
-        }        
+        }
       ]
     }
   ]

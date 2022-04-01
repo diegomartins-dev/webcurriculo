@@ -10,9 +10,9 @@ https://webcurriculo.web.app
 
 ## Instalar localmente
 
-```npm install```
-
 ```npm install -g create-react-app```
+
+```npm install```
 
 ## Rodar localmente
 
