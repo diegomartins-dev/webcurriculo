@@ -1,0 +1,22 @@
+.ant-menu {
+    min-height: 100vh;
+}
+
+@media all and (max-height: 480px) {
+    .ant-menu {
+        overflow-y: scroll;
+    }
+}
+
+@media all and (min-height: 480px) {
+    .ant-menu-item-login {
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+@media all and (max-width: 340px){
+    .ant-menu {
+        width: 100px;
+    }
+}
