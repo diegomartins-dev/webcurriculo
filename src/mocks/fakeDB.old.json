@@ -56,6 +56,17 @@
           "year": "2012.1"
         }
       ]
+    },
+    {
+      "subtitle": "Teste de software",
+      "details": [
+        {
+          "institute": "EBAC",
+          "modality": "EAD",
+          "status": "Cursando",
+          "year": "2023"
+        }
+      ]
     }
   ],
   "certifiers": {
@@ -247,33 +258,34 @@
       ]
     },
     {
-      "subtitle": "Devops",
+      "subtitle": "Testes/QA",
       "subknowledge": [
         {
-          "name": "Tecnologias",
+          "name": "Técnicas",
           "skills": [
             {
-              "name": "CI/CD",
-              "level": "Intermediário"
-            },
-            {
-              "name": "Docker",
+              "name": "BDD",
               "level": "Avançado"
             },
             {
-              "name": "Docker Compose",
+              "name": "Gherkin",
+              "level": "Avançado"
+            }
+          ]
+        },
+        {
+          "name": "Frameworks/Engines",
+          "skills": [
+            {
+              "name": "Cucumber",
               "level": "Avançado"
             },
             {
-              "name": "GCP",
+              "name": "Jasmine",
               "level": "Avançado"
             },
             {
-              "name": "API Restful",
-              "level": "Avançado"
-            },
-            {
-              "name": "Prettier",
+              "name": "Karma",
               "level": "Avançado"
             }
           ]
@@ -316,14 +328,6 @@
             },
             {
               "name": "Redux",
-              "level": "Intermediário"
-            },
-            {
-              "name": "NGRX",
-              "level": "Intermediário"
-            },
-            {
-              "name": "Jasmine",
               "level": "Intermediário"
             }
           ]
@@ -405,6 +409,114 @@
     }
   ],
   "experiences": [
+    {
+      "subtitle": "Me Salva",
+      "offices": [
+        {
+          "name": "Desenvolvedor Frontend",
+          "periods": [
+            {
+              "content": "Novembro/2020 a Fevereiro/2021"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "content": "Desenvolvimento frontend dos sistemas de cursos voltados para o Enem",
+          "type": "text"
+        },
+        {
+          "content": "Code Review",
+          "type": "text"
+        },
+        {
+          "content": "Peer Programming",
+          "type": "text"
+        },
+        {
+          "content": "Scrum",
+          "type": "text"
+        },
+        {
+          "content": "Versionamento de sistema",
+          "type": "text"
+        },
+        {
+          "content": "Constante vivencia com HTML, CSS, Javascript, Typescript, React, NextJs",
+          "type": "text"
+        },
+        {
+          "content": "Deploy com github",
+          "type": "text"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Bootstrap"
+        },
+        {
+          "name": "HTML5"
+        },
+        {
+          "name": "CSS3"
+        },
+        {
+          "name": "Javascript"
+        },
+        {
+          "name": "ReactJs"
+        },
+        {
+          "name": "NextJs"
+        },
+        {
+          "name": "Typescript"
+        },
+        {
+          "name": "Styled Components"
+        },
+        {
+          "name": "Git"
+        },
+        {
+          "name": "VSCode"
+        },
+        {
+          "name": "SASS"
+        },
+        {
+          "name": "VSCode"
+        },
+        {
+          "name": "Npm"
+        },
+        {
+          "name": "NodeJs"
+        },
+        {
+          "name": "API Facebook"
+        },
+        {
+          "name": "ES2016"
+        },
+        {
+          "name": "Heroku"
+        },
+        {
+          "name": "ExpressJS"
+        },
+        {
+          "name": "API"
+        },
+        {
+          "name": "Windows 10"
+        },
+        {
+          "name": "Fedora"
+        }
+      ]
+    },
     {
       "subtitle": "Kopicup",
       "offices": [

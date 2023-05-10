@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 function draw(items) {
   return items.map((item, index) => {
@@ -9,13 +9,13 @@ function draw(items) {
       case "link":
         return (
           <li key={index}>
-            <a href={item.url} target="_blank">
+            <a href={item.url} rel="noopener noreferrer" target="_blank">
               {item.content}
             </a>
           </li>
         );
       default:
-        break;
+        return "";
     }
   });
 }
@@ -26,7 +26,7 @@ function ListDefault(props) {
 
 ListDefault.propTypes = {
   class: PropTypes.string,
-  items: PropTypes.array
+  items: PropTypes.array,
 };
 
 export default ListDefault;

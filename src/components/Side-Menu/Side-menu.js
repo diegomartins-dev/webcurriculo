@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 import { Menu, Icon } from "antd";
 import { Link } from "react-router-dom";
@@ -7,16 +8,13 @@ import "./Side-menu.css";
 import { disconnect } from "../../helpers/Auth";
 
 const { SubMenu } = Menu;
-class SideMenu extends Component {
-  constructor(props) {
-    super(props);
-  }
 
+class SideMenu extends Component {
   logout = (e) => {
     e.preventDefault();
     disconnect();
     this.props.history.push("/login");
-  }
+  };
 
   render() {
     const { activeKey, openKey } =
@@ -42,9 +40,9 @@ class SideMenu extends Component {
               state: {
                 menu: {
                   activeKey: "1",
-                  openKey: ""
-                }
-              }
+                  openKey: "",
+                },
+              },
             }}
           ></Link>
         </Menu.Item>
@@ -57,9 +55,9 @@ class SideMenu extends Component {
               state: {
                 menu: {
                   activeKey: "2",
-                  openKey: ""
-                }
-              }
+                  openKey: "",
+                },
+              },
             }}
           ></Link>
         </Menu.Item>
@@ -126,7 +124,11 @@ class SideMenu extends Component {
           }
         >
           <Menu.Item key="10">Diego Guimarães</Menu.Item>
-          <Menu.Item key="11"><a href="#" onClick={this.logout}>Sair</a></Menu.Item>
+          <Menu.Item key="11">
+            <a href="#" onClick={this.logout}>
+              Sair
+            </a>
+          </Menu.Item>
         </SubMenu>
       </Menu>
     );

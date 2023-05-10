@@ -8,7 +8,12 @@ function draw(items) {
     return (
       <React.Fragment key={index}>
         <li>
-          <div className={"position-relative box-experiences__div__subtitle " + ((index == 0) ? '--no-margin-top' : '')}>
+          <div
+            className={
+              "position-relative box-experiences__div__subtitle " +
+              (index === 0 ? "--no-margin-top" : "")
+            }
+          >
             <h3 className="box-experiences__subtitle text--uppercase --no-margin-bottom">
               {item.subtitle}
             </h3>
