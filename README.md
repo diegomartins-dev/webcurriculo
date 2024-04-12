@@ -10,23 +10,24 @@ https://webcurriculo.web.app
 
 ## Instalar localmente
 
-```npm install -g create-react-app```
+`npm install -g create-react-app`
 
-```npm install```
+`npm install`
 
 ## Rodar localmente
 
-```npm start```
+`npm start`
 
 ## Deploy
 
 Para eu lembrar caso o ambiente de dev seja novo:
-- ```npm install -g firebase-tools```
 
-- ```firebase login```
+- `npm install -g firebase-tools`
+
+- `firebase login`
 
 Após a instalação do firebase tools, roda sempre:
-- ```npm build```
 
-- ```firebase deploy```
+- `npm run build`
 
+- `firebase deploy`
