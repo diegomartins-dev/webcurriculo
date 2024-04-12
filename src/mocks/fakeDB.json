@@ -1,6 +1,6 @@
 {
   "info": {
-    "content": "Brasileiro, 35 anos, solteiro."
+    "content": "Brasileiro, 36 anos, solteiro."
   },
   "contacts": [
     {
@@ -142,7 +142,7 @@
             },
             {
               "name": "ExpressJs",
-              "level": "Intermediário"
+              "level": "Avançado"
             }
           ]
         },
@@ -219,7 +219,7 @@
             },
             {
               "name": "ReactJs",
-              "level": "Intermediário"
+              "level": "Avançado"
             },
             {
               "name": "Typescript",
@@ -266,7 +266,7 @@
             },
             {
               "name": "GCP",
-              "level": "Avançado"
+              "level": "Intermediário"
             },
             {
               "name": "API Restful",
@@ -275,6 +275,10 @@
             {
               "name": "Prettier",
               "level": "Avançado"
+            },
+            {
+              "name": "Azure Devops",
+              "level": "Intermediário"
             }
           ]
         }
@@ -406,6 +410,216 @@
   ],
   "experiences": [
     {
+      "subtitle": "CTGI",
+      "offices": [
+        {
+          "name": "Analista de Desenvolvimento de Sistemas ",
+          "periods": [
+            {
+              "content": "Abril/2024 a Atualmente"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "content": "Desenvolvimento do sistema de georeferenciamento NeoAgroInfra",
+          "type": "text"
+        },
+        {
+          "content": "Desenvolvimento com tecnologias Frontend",
+          "type": "text"
+        },
+        {
+          "content": "Criação e edição do layout personalizado para o app",
+          "type": "text"
+        },
+        {
+          "content": "Versionamento de sistema",
+          "type": "text"
+        },
+        {
+          "content": "Constante vivencia com HTML, CSS, Javascript, Typescript, Angular, Chart.js, Leaflet",
+          "type": "text"
+        },
+        {
+          "content": "Deploy com Azure Devops e Github",
+          "type": "text"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Bootstrap"
+        },
+        {
+          "name": "HTML5"
+        },
+        {
+          "name": "CSS3"
+        },
+        {
+          "name": "Javascript"
+        },
+        {
+          "name": "Jquery"
+        },
+        {
+          "name": "Angular"
+        },
+        {
+          "name": "Leaflet"
+        },
+        {
+          "name": "Chart.js"
+        },
+        {
+          "name": "Typescript"
+        },
+        {
+          "name": "Git"
+        },
+        {
+          "name": "SASS"
+        },
+        {
+          "name": "VSCode"
+        },
+        {
+          "name": "Npm"
+        },
+        {
+          "name": "Testes"
+        },
+        {
+          "name": "API Restful"
+        },
+        {
+          "name": "Azure Devops"
+        },
+        {
+          "name": "Windows 11"
+        },
+        {
+          "name": "Ubuntu"
+        }
+      ]
+    },
+    {
+      "subtitle": "Autonomo",
+      "offices": [
+        {
+          "name": "Desenvolvedor Frontend",
+          "periods": [
+            {
+              "content": "Janeiro/2020 a Março/2024"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "content": "Desenvolvimento com tecnologias Frontend",
+          "type": "text"
+        },
+        {
+          "content": "Criação e edição do layout personalizado para o app",
+          "type": "text"
+        },
+        {
+          "content": "Versionamento de sistema",
+          "type": "text"
+        },
+        {
+          "content": "Constante vivencia com HTML, CSS, Javascript , Typescript, Angular",
+          "type": "text"
+        },
+        {
+          "content": "Deploy com Azure Devops e Github",
+          "type": "text"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Bootstrap"
+        },
+        {
+          "name": "HTML5"
+        },
+        {
+          "name": "CSS3"
+        },
+        {
+          "name": "Javascript"
+        },
+        {
+          "name": "Jquery"
+        },
+        {
+          "name": "Angular"
+        },
+        {
+          "name": "ReactJs"
+        },
+        {
+          "name": "NextJS"
+        },
+        {
+          "name": "Ionic"
+        },
+        {
+          "name": "Typescript"
+        },
+        {
+          "name": "MySql"
+        },
+        {
+          "name": "Git"
+        },
+        {
+          "name": "SASS"
+        },
+        {
+          "name": "VSCode"
+        },
+        {
+          "name": "Npm"
+        },
+        {
+          "name": "NodeJs"
+        },
+        {
+          "name": "Firebase"
+        },
+        {
+          "name": "ExpressJS"
+        },
+        {
+          "name": "Docker"
+        },
+        {
+          "name": "GitHub Actions"
+        },
+        {
+          "name": "CI/CD"
+        },
+        {
+          "name": "Testes"
+        },
+        {
+          "name": "API Restful"
+        },
+        {
+          "name": "Azure Devops"
+        },
+        {
+          "name": "Windows 11"
+        },
+        {
+          "name": "Ubuntu"
+        }
+      ]
+    },
+    {
       "subtitle": "Kopicup",
       "offices": [
         {
@@ -521,7 +735,7 @@
           "name": "Cordova"
         },
         {
-          "name": "API"
+          "name": "API Restful"
         },
         {
           "name": "Ionic Native"
