@@ -36,7 +36,7 @@
   },
   "academics": [
     {
-      "subtitle": "Superior Tecnológico em Sistemas para Internet",
+      "subtitle": "Graduação Tecnológica em Sistemas para Internet",
       "details": [
         {
           "institute": "Universidade Salvador – Unifacs",
@@ -47,13 +47,13 @@
       ]
     },
     {
-      "subtitle": "Superior em Engenharia da Computação",
+      "subtitle": "Pós Graduação em Engenharia de Software",
       "details": [
         {
-          "institute": "Faculdade de Ciências e Tecnologia – Área1",
-          "modality": "Noturno",
-          "status": "Trancado",
-          "year": "2012.1"
+          "institute": "Faculdade Descomplica",
+          "modality": "EAD",
+          "status": "Cursando",
+          "year": "2024.2"
         }
       ]
     }

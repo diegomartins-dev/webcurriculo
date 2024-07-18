@@ -7,7 +7,7 @@ const { Option } = Select;
 let id = 0;
 
 class DynamicListDefaultForm extends Component {
-  remove = k => {
+  remove = (k) => {
     const { form } = this.props;
     // can use data-binding to get
     const keys = form.getFieldValue("keys");
@@ -18,7 +18,7 @@ class DynamicListDefaultForm extends Component {
 
     // can use data-binding to set
     form.setFieldsValue({
-      keys: keys.filter(key => key !== k)
+      keys: keys.filter((key) => key !== k),
     });
   };
 
@@ -30,11 +30,11 @@ class DynamicListDefaultForm extends Component {
     // can use data-binding to set
     // important! notify form to detect changes
     form.setFieldsValue({
-      keys: nextKeys
+      keys: nextKeys,
     });
   };
 
-  handleSubmit = e => {
+  handleSubmit = (e) => {
     e.preventDefault();
     this.props.form.validateFields((err, values) => {
       if (!err) {
@@ -42,7 +42,7 @@ class DynamicListDefaultForm extends Component {
         console.log("Received values of form: ", values);
         console.log(
           "Merged values:",
-          keys.map(key => names[key])
+          keys.map((key) => names[key])
         );
       }
     });
@@ -67,9 +67,9 @@ class DynamicListDefaultForm extends Component {
               {
                 required: true,
                 whitespace: true,
-                message: "Informe o item da lista"
-              }
-            ]
+                message: "Informe o item da lista",
+              },
+            ],
           })(<Input placeholder="Item da lista" />)}
         </Form.Item>
         <Form.Item key={Math.random()} hasFeedback>
@@ -79,9 +79,9 @@ class DynamicListDefaultForm extends Component {
               {
                 required: true,
                 whitespace: true,
-                message: "Por favor selecione o tipo de lista"
-              }
-            ]
+                message: "Por favor selecione o tipo de lista",
+              },
+            ],
           })(
             <Select placeholder="Selecione o tipo de lista">
               <Option value="text">Text</Option>

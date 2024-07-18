@@ -6,7 +6,7 @@ import "./Login-form.css";
 import { authenticate } from "../../../helpers/Auth";
 
 function hasErrors(fieldsError) {
-  return Object.keys(fieldsError).some(field => fieldsError[field]);
+  return Object.keys(fieldsError).some((field) => fieldsError[field]);
 }
 
 class LoginForm extends Component {
@@ -14,13 +14,13 @@ class LoginForm extends Component {
     this.props.form.validateFields();
   }
 
-  handleGuestSubmit = e => {
+  handleGuestSubmit = (e) => {
     e.preventDefault();
     authenticate();
     this.props.history.push("/intro");
-  }
+  };
 
-  handleSubmit = e => {
+  handleSubmit = (e) => {
     e.preventDefault();
     this.props.form.validateFields((err, values) => {
       if (!err) {
@@ -31,12 +31,8 @@ class LoginForm extends Component {
   };
 
   render() {
-    const {
-      getFieldDecorator,
-      getFieldsError,
-      getFieldError,
-      isFieldTouched
-    } = this.props.form;
+    const { getFieldDecorator, getFieldsError, getFieldError, isFieldTouched } =
+      this.props.form;
 
     const usernameError =
       isFieldTouched("username") && getFieldError("username");
@@ -50,7 +46,9 @@ class LoginForm extends Component {
           help={usernameError || ""}
         >
           {getFieldDecorator("username", {
-            rules: [{ required: true, message: "Por favor informe o usuário!" }]
+            rules: [
+              { required: true, message: "Por favor informe o usuário!" },
+            ],
           })(
             <Input
               prefix={<Icon type="user" style={{ color: "rgba(0,0,0,.25)" }} />}
@@ -63,7 +61,7 @@ class LoginForm extends Component {
           help={passwordError || ""}
         >
           {getFieldDecorator("password", {
-            rules: [{ required: true, message: "Por favor informe a senha!" }]
+            rules: [{ required: true, message: "Por favor informe a senha!" }],
           })(
             <Input
               prefix={<Icon type="lock" style={{ color: "rgba(0,0,0,.25)" }} />}
@@ -101,6 +99,4 @@ class LoginForm extends Component {
   }
 }
 
-export default withRouter(
-  Form.create({ name: "LoginForm" })(LoginForm)
-);
+export default withRouter(Form.create({ name: "LoginForm" })(LoginForm));
