@@ -45,17 +45,6 @@
           "year": "2014.1"
         }
       ]
-    },
-    {
-      "subtitle": "Pós Graduação em Engenharia de Software",
-      "details": [
-        {
-          "institute": "Faculdade Descomplica",
-          "modality": "EAD",
-          "status": "Cursando",
-          "year": "2024.2"
-        }
-      ]
     }
   ],
   "certifiers": {
@@ -401,7 +390,7 @@
             },
             {
               "name": "Mac OS 10.13",
-              "level": "Avançado"
+              "level": "Intermediário"
             }
           ]
         }
@@ -410,13 +399,13 @@
   ],
   "experiences": [
     {
-      "subtitle": "Autonomo",
+      "subtitle": "Avansys",
       "offices": [
         {
-          "name": "Desenvolvedor Frontend",
+          "name": "Analista de Sistemas Pleno",
           "periods": [
             {
-              "content": "Janeiro/2022 a Atualmente"
+              "content": "Outubro/2024 a Atualmente"
             }
           ]
         }
@@ -427,7 +416,82 @@
           "type": "text"
         },
         {
-          "content": "Criação e edição do layout personalizado para o app",
+          "content": "Criação e edição do layout personalizado para o sistema web",
+          "type": "text"
+        },
+        {
+          "content": "Versionamento de sistema",
+          "type": "text"
+        },
+        {
+          "content": "Constante vivencia com HTML, CSS, Javascript , Typescript, Angular",
+          "type": "text"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "HTML5"
+        },
+        {
+          "name": "CSS3"
+        },
+        {
+          "name": "Javascript"
+        },
+        {
+          "name": "Angular"
+        },
+        {
+          "name": "Typescript"
+        },
+        {
+          "name": "Git"
+        },
+        {
+          "name": "SASS"
+        },
+        {
+          "name": "VSCode"
+        },
+        {
+          "name": "Npm"
+        },
+        {
+          "name": "Docker"
+        },
+        {
+          "name": "Testes"
+        },
+        {
+          "name": "API Restful"
+        },
+        {
+          "name": "Windows 11"
+        },
+        {
+          "name": "Ubuntu"
+        }
+      ]
+    },
+    {
+      "subtitle": "Autonomo",
+      "offices": [
+        {
+          "name": "Desenvolvedor Frontend",
+          "periods": [
+            {
+              "content": "Setembro/2018 a Setembro/2024"
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "content": "Desenvolvimento com tecnologias Frontend",
+          "type": "text"
+        },
+        {
+          "content": "Criação e edição do layout personalizado para o sistema web ou app",
           "type": "text"
         },
         {
@@ -521,138 +585,6 @@
         },
         {
           "name": "Ubuntu"
-        }
-      ]
-    },
-    {
-      "subtitle": "Kopicup",
-      "offices": [
-        {
-          "name": "Desenvolvedor Frontend Mobile",
-          "periods": [
-            {
-              "content": "Junho/2018 a Abril/2020"
-            }
-          ]
-        }
-      ],
-      "activities": [
-        {
-          "content": "Desenvolvimento do app Fitnu",
-          "type": "text"
-        },
-        {
-          "content": "Desenvolvimento de app híbrido usando Ionic 3",
-          "type": "text"
-        },
-        {
-          "content": "Desenvolvimento com tecnologias Frontend",
-          "type": "text"
-        },
-        {
-          "content": "Criação e edição do layout personalizado para o app",
-          "type": "text"
-        },
-        {
-          "content": "Versionamento de sistema",
-          "type": "text"
-        },
-        {
-          "content": "Constante vivencia com HTML, CSS, Javascript , Typescript, Ionic, Angular e Firebase",
-          "type": "text"
-        },
-        {
-          "content": "Deploy com firebase, heroku e github",
-          "type": "text"
-        }
-      ],
-      "technologies": [
-        {
-          "name": "Bootstrap"
-        },
-        {
-          "name": "HTML5"
-        },
-        {
-          "name": "CSS3"
-        },
-        {
-          "name": "Javascript"
-        },
-        {
-          "name": "Jquery"
-        },
-        {
-          "name": "Angular"
-        },
-        {
-          "name": "Ionic 3"
-        },
-        {
-          "name": "Typescript"
-        },
-        {
-          "name": "MySql"
-        },
-        {
-          "name": "Git"
-        },
-        {
-          "name": "Bitbucket"
-        },
-        {
-          "name": "SASS"
-        },
-        {
-          "name": "VSCode"
-        },
-        {
-          "name": "XCode"
-        },
-        {
-          "name": "Npm"
-        },
-        {
-          "name": "NodeJs"
-        },
-        {
-          "name": "Firebase"
-        },
-        {
-          "name": "API Facebook"
-        },
-        {
-          "name": "ES2016"
-        },
-        {
-          "name": "Heroku"
-        },
-        {
-          "name": "ExpressJS"
-        },
-        {
-          "name": "AWS Amplify"
-        },
-        {
-          "name": "AWS S3"
-        },
-        {
-          "name": "Cordova"
-        },
-        {
-          "name": "API Restful"
-        },
-        {
-          "name": "Ionic Native"
-        },
-        {
-          "name": "Windows 10"
-        },
-        {
-          "name": "Fedora"
-        },
-        {
-          "name": "Mac Os 10.13"
         }
       ]
     },
