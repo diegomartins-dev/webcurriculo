@@ -6,11 +6,12 @@
   "private": true,
   "dependencies": {
     "antd": "^3.26.2",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^5.0.1",
-    "webcurriculo": "file:"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

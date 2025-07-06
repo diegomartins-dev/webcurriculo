@@ -372,3 +372,11 @@ h1, h2, h3, h4, h5 {
   .--no-list-style {
     list-style: none;
   }
+
+  .text--green__hover:hover{
+    color: var(--success);
+  }
+
+  .text--green--strong__hover:hover{
+    font-weight: bold;
+  }

@@ -1,6 +1,6 @@
 {
   "info": {
-    "content": "Brasileiro, 36 anos, solteiro."
+    "content": "Brasileiro, 37 anos, solteiro."
   },
   "contacts": [
     {
@@ -8,7 +8,7 @@
       "type": "text"
     },
     {
-      "content": "(71) 9 9332-9298",
+      "content": "(71) 99332-9298",
       "type": "text"
     },
     {
@@ -18,7 +18,7 @@
     }
   ],
   "perfil": {
-    "content": "<p>Profissional ativo na área de T.I. <strong>desde 2011</strong>, formado em <strong>Sistemas para Internet</strong>. <br/><strong>Desenvolvedor de Sistemas Web e Mobile, com foco no desenvolvimento Frontend</strong>, mas também com sólidos conhecimentos <strong>Fullstack</strong>. Atualmente estudando Teste de Software pela Ebac</p>",
+    "content": "<p>Profissional ativo na área de T.I. <strong>desde 2011</strong>, formado em <strong>Sistemas para Internet</strong>. <br/><strong>Desenvolvedor de Sistemas Web e Mobile, com foco no desenvolvimento Frontend</strong>, mas também com sólidos conhecimentos <strong>Fullstack</strong>. Pós graduando em <strong>Arquitetura de Sistemas Distribuídos</strong> pela <strong>PUCMINAS</strong>.</p>",
     "details": [
       {
         "content": "Tempo integral –",
@@ -36,13 +36,24 @@
   },
   "academics": [
     {
+      "subtitle": " Pós Graduação em Arquitetura de Sistemas Distribuídos",
+      "details": [
+        {
+          "institute": "PUCMINAS",
+          "modality": "EAD",
+          "status": "Cursando",
+          "year": "2025-2026"
+        }
+      ]
+    },
+    {
       "subtitle": "Graduação Tecnológica em Sistemas para Internet",
       "details": [
         {
           "institute": "Universidade Salvador – Unifacs",
           "modality": "Noturno",
-          "status": "Concluido",
-          "year": "2014.1"
+          "status": "Concluído",
+          "year": "2012-2014"
         }
       ]
     }
@@ -165,7 +176,7 @@
               "level": "Avançado"
             },
             {
-              "name": "Skeleton Css ",
+              "name": "PrimeNG 19",
               "level": "Avançado"
             },
             {
@@ -300,7 +311,7 @@
               "level": "Avançado"
             },
             {
-              "name": "Heroku",
+              "name": "Vercel",
               "level": "Avançado"
             },
             {
@@ -317,6 +328,14 @@
             },
             {
               "name": "Jasmine",
+              "level": "Intermediário"
+            },
+            {
+              "name": "Keycloak",
+              "level": "Intermediário"
+            },
+            {
+              "name": "Jest",
               "level": "Intermediário"
             }
           ]
@@ -399,7 +418,7 @@
   ],
   "experiences": [
     {
-      "subtitle": "Avansys",
+      "subtitle": "Netra",
       "offices": [
         {
           "name": "Analista de Sistemas Pleno",
@@ -440,6 +459,12 @@
         },
         {
           "name": "Angular"
+        },
+        {
+          "name": "PrimeNG"
+        },
+        {
+          "name": "Keycloak"
         },
         {
           "name": "Typescript"
@@ -589,7 +614,7 @@
       ]
     },
     {
-      "subtitle": "Avansys",
+      "subtitle": "Netra",
       "offices": [
         {
           "name": "Analista de Sistemas Jr",

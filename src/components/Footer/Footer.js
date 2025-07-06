@@ -11,7 +11,7 @@ export default class Footer extends Component {
               <ul className="--no-list-style --no-padding-left">
                 <li>
                   <a
-                    className="text--white"
+                    className="text--white text--green__hover text--green--strong__hover"
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://github.com/diegohyenna"
@@ -21,7 +21,7 @@ export default class Footer extends Component {
                 </li>
                 <li>
                   <a
-                    className="text--white"
+                    className="text--white text--green__hover text--green--strong__hover"
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://www.linkedin.com/in/diego-guimaraes-362136123/"
@@ -31,7 +31,7 @@ export default class Footer extends Component {
                 </li>
                 <li>
                   <a
-                    className="text--white"
+                    className="text--white text--green__hover text--green--strong__hover"
                     target="_blank"
                     rel="noopener noreferrer"
                     href="http://dgsite.web.app"
@@ -54,9 +54,9 @@ export default class Footer extends Component {
               </Link>
     </div>*/}
             <div className="col-12">
-              <small className="text--white text--shadow">
-                Todos os direitos reservados a Diego Guimarães Martins
-              </small>
+              <p className="text--white text--shadow">
+                 &copy; Todos os direitos reservados a Diego Guimarães Martins - {new Date().getFullYear()}
+              </p>
             </div>
           </div>
         </div>
